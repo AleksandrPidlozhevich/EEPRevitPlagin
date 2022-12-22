@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EEP_Revit_Plagin", "EEP_Revit_Plagin\EEP_Revit_Plagin.csproj", "{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		R2019|Any CPU = R2019|Any CPU
+		R2020|Any CPU = R2020|Any CPU
+		R2021|Any CPU = R2021|Any CPU
+		R2022|Any CPU = R2022|Any CPU
+		R2023|Any CPU = R2023|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}.R2019|Any CPU.ActiveCfg = R2019|Any CPU
+		{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}.R2019|Any CPU.Build.0 = R2019|Any CPU
+		{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}.R2020|Any CPU.ActiveCfg = R2020|Any CPU
+		{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}.R2020|Any CPU.Build.0 = R2020|Any CPU
+		{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}.R2021|Any CPU.ActiveCfg = R2021|Any CPU
+		{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}.R2021|Any CPU.Build.0 = R2021|Any CPU
+		{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}.R2022|Any CPU.ActiveCfg = R2022|Any CPU
+		{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}.R2022|Any CPU.Build.0 = R2022|Any CPU
+		{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}.R2023|Any CPU.ActiveCfg = R2023|Any CPU
+		{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}.R2023|Any CPU.Build.0 = R2023|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD498C1C-6B7C-4088-BCEF-C263444620E0}
+	EndGlobalSection
+EndGlobal
