@@ -21,7 +21,7 @@ namespace EEP_Revit_Plagin
         {
             assemblyPath = typeof(App).Assembly.Location;
             assemblyFolder = Path.GetDirectoryName(assemblyPath);
-            ribbonPath = Path.Combine(assemblyFolder, "EEP_Revit_Plagin");
+            ribbonPath = Path.Combine(assemblyFolder, "EEP_RP_СommandModules");
 
             string tabName = "EEP_RP";
             application.CreateRibbonTab(tabName);
