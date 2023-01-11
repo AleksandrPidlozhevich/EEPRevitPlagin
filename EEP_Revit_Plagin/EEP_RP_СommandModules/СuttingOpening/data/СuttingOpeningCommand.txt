@@ -1,0 +1,3 @@
+Вырезать\nотверстия
+Вырезание проемов по задания на отверстия
+https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin
