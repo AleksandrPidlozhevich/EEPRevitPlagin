@@ -47,17 +47,17 @@ namespace EEP_Revit_Plagin
         }
         private void CreateRibbon(UIControlledApplication uiApp, string tabName)
         {
-            RibbonPanel panelKR = uiApp.CreateRibbonPanel(tabName, "КР");
-            panelKR.AddItem(CreateButtonData("Test", "TestCommand"));
-            panelKR.AddSeparator();
+            //RibbonPanel panelKR = uiApp.CreateRibbonPanel(tabName, "КР");
+            //panelKR.AddItem(CreateButtonData("Test", "TestCommand"));
+            //panelKR.AddSeparator();
             RibbonPanel panelHVAC = uiApp.CreateRibbonPanel(tabName, "ИОС");
             panelHVAC.AddItem(CreateButtonData("СuttingOpening", "СuttingOpeningCommand"));
-            panelHVAC.AddSeparator();
+            //panelHVAC.AddSeparator();
         }
         public PushButtonData CreateButtonData(string assemblyName, string className)
         {
-            string commandPath = Path.Combine(ribbonPath, assemblyName);
-            string fullClassname = ribbonPath + assemblyName +"."+ className;
+            
+            string fullClassname = ribbonPath + "." + className;
             string dataPath = Path.Combine(ribbonPath, assemblyName, "data");
             string largeIcon = Path.Combine(dataPath, className + "_large.png");
             string smallIcon = Path.Combine(dataPath, className + "_small.png");
@@ -67,16 +67,12 @@ namespace EEP_Revit_Plagin
             string tooltip = text[1];
             string url = text[2];
 
-            PushButtonData data = new PushButtonData(className, title, commandPath, fullClassname);
-
+            PushButtonData data = new PushButtonData(className, title, assemblyPath, fullClassname);
             data.LargeImage = new BitmapImage(new Uri(largeIcon, UriKind.Absolute));
             data.Image = new BitmapImage(new Uri(smallIcon, UriKind.Absolute));
-
             data.ToolTip = text[1];
-
             ContextualHelp chelp = new ContextualHelp(ContextualHelpType.Url, url);
             data.SetContextualHelp(chelp);
-
             return data;
         }
         
