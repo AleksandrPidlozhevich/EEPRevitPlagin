@@ -157,10 +157,14 @@
   </Choose>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="EEP_RP_СommandModules\СuttingOpening\СuttingOpeningCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="EEP_RP_СommandModules\" />
+    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand.txt" />
+    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand_large.png" />
+    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand_small.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
