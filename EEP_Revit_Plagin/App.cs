@@ -52,11 +52,13 @@ namespace EEP_Revit_Plagin
             //panelKR.AddSeparator();
             RibbonPanel panelHVAC = uiApp.CreateRibbonPanel(tabName, "ИОС");
             panelHVAC.AddItem(CreateButtonData("СuttingOpening", "СuttingOpeningCommand"));
-            //panelHVAC.AddSeparator();
+            panelHVAC.AddSeparator();
         }
         public PushButtonData CreateButtonData(string assemblyName, string className)
         {
             
+
+            string fullClassname = "EEP_Revit_Plagin.EEP_RP_СommandModules."+ assemblyName + "." + className;
             string fullClassname = ribbonPath + "." + className;
             string dataPath = Path.Combine(ribbonPath, assemblyName, "data");
             string largeIcon = Path.Combine(dataPath, className + "_large.png");
@@ -75,7 +77,5 @@ namespace EEP_Revit_Plagin
             data.SetContextualHelp(chelp);
             return data;
         }
-        
-
     }
 }
