@@ -160,11 +160,19 @@
     <Compile Include="EEP_RP_СommandModules\СuttingOpening\СuttingOpeningCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand.txt" />
-    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand_large.png" />
-    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand_small.png" />
+    <Folder Include="EEP_RP_СommandModules\NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand_large.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand_small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -57,7 +57,7 @@ namespace EEP_Revit_Plagin
         public PushButtonData CreateButtonData(string assemblyName, string className)
         {
             
-            string fullClassname = ribbonPath + "." + className;
+            string fullClassname = "EEP_Revit_Plagin.EEP_RP_СommandModules."+ assemblyName + "." + className;
             string dataPath = Path.Combine(ribbonPath, assemblyName, "data");
             string largeIcon = Path.Combine(dataPath, className + "_large.png");
             string smallIcon = Path.Combine(dataPath, className + "_small.png");
