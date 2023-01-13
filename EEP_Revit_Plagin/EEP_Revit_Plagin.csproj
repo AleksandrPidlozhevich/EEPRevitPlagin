@@ -160,6 +160,7 @@
     <Compile Include="EEP_RP_СommandModules\СuttingOpening\СuttingOpeningCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Folder Include="EEP_RP_СommandModules\NewFolder1\" />
   </ItemGroup>
