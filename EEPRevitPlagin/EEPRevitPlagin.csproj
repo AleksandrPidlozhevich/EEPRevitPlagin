@@ -7,8 +7,8 @@
     <ProjectGuid>{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EEP_Revit_Plagin</RootNamespace>
-    <AssemblyName>EEP_Revit_Plagin</AssemblyName>
+    <RootNamespace>EEPRevitPlagin</RootNamespace>
+    <AssemblyName>EEPRevitPlagin</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -157,21 +157,21 @@
   </Choose>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="EEP_RP_СommandModules\СuttingOpening\СuttingOpeningCommand.cs" />
+    <Compile Include="EEPRPСommandModules\СuttingOpening\СuttingOpeningCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Folder Include="EEP_RP_СommandModules\NewFolder1\" />
+    <Folder Include="EEPRPСommandModules\NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand.txt">
+    <Content Include="EEPRPСommandModules\СuttingOpening\data\СuttingOpeningCommand.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand_large.png">
+    <Content Include="EEPRPСommandModules\СuttingOpening\data\СuttingOpeningCommand_large.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEP_RP_СommandModules\СuttingOpening\data\СuttingOpeningCommand_small.png">
+    <Content Include="EEPRPСommandModules\СuttingOpening\data\СuttingOpeningCommand_small.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

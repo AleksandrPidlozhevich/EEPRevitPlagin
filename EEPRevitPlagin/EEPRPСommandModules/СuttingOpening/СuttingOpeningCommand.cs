@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EEP_Revit_Plagin.EEP_RP_СommandModules.СuttingOpening
+namespace EEPRevitPlagin.EEPRPСommandModules.СuttingOpening
 {
     internal class СuttingOpeningCommand : IExternalCommand
     {

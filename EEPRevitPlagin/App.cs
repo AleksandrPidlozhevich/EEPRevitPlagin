@@ -10,7 +10,7 @@ using System.Windows.Media.Imaging;
 using System.Reflection;
 #endregion
 
-namespace EEP_Revit_Plagin
+namespace EEPRevitPlagin
 {
     [Autodesk.Revit.Attributes.Transaction(Autodesk.Revit.Attributes.TransactionMode.Manual)]
     class App : IExternalApplication
@@ -22,9 +22,9 @@ namespace EEP_Revit_Plagin
         {
             assemblyPath = typeof(App).Assembly.Location;
             assemblyFolder = Path.GetDirectoryName(assemblyPath);
-            ribbonPath = Path.Combine(assemblyFolder, "EEP_RP_СommandModules");
+            ribbonPath = Path.Combine(assemblyFolder, "EEPRPСommandModules");
 
-            string tabName = "EEP_RP";
+            string tabName = "EEP";
             try { application.CreateRibbonTab(tabName); } catch { }
 
             try
@@ -56,7 +56,7 @@ namespace EEP_Revit_Plagin
         }
         public PushButtonData CreateButtonData(string assemblyName, string className)
         {
-            string fullClassname = "EEP_Revit_Plagin.EEP_RP_СommandModules."+ assemblyName + "." + className;
+            string fullClassname = "EEPRevitPlagin.EEPRPСommandModules."+ assemblyName + "." + className;
             string dataPath = Path.Combine(ribbonPath, assemblyName, "data");
             string largeIcon = Path.Combine(dataPath, className + "_large.png");
             string smallIcon = Path.Combine(dataPath, className + "_small.png");

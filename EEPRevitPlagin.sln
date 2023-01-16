@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EEP_Revit_Plagin", "EEP_Revit_Plagin\EEP_Revit_Plagin.csproj", "{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EEPRevitPlagin", "EEPRevitPlagin\EEPRevitPlagin.csproj", "{A8AF7703-F8F7-4164-AEC8-8F20BD84C819}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
