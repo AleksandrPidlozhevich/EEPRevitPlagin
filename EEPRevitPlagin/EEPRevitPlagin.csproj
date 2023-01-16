@@ -157,13 +157,14 @@
   </Choose>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="EEPRPСommandModules\InstallationDoorWindowLintels\InstallationDoorWindowLintelsCommand.cs" />
     <Compile Include="EEPRPСommandModules\СuttingOpening\СuttingOpeningCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Folder Include="EEPRPСommandModules\NewFolder1\" />
+    <None Include="Addin\EEPRevitPlagin_2021.addin" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="EEPRPСommandModules\СuttingOpening\data\СuttingOpeningCommand.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
