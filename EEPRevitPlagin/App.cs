@@ -47,7 +47,7 @@ namespace EEPRevitPlagin
         }
         private void CreateRibbon(UIControlledApplication uiApp, string tabName)
         {
-            RibbonPanel panelAR = uiApp.CreateRibbonPanel(tabName, "КР");
+            RibbonPanel panelAR = uiApp.CreateRibbonPanel(tabName, "АР");
             panelAR.AddItem(CreateButtonData("InstallationDoorWindowLintels", "InstallationDoorWindowLintelsCommand"));
             panelAR.AddSeparator();
             //RibbonPanel panelKR = uiApp.CreateRibbonPanel(tabName, "КР");

@@ -176,6 +176,15 @@
     <None Include="Addin\EEPRevitPlagin_2021.addin" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EEPRPСommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EEPRPСommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand_large.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EEPRPСommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand_small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="EEPRPСommandModules\СuttingOpening\data\СuttingOpeningCommand.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -186,9 +195,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EEPRPСommandModules\InstallationDoorWindowLintels\data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Page Include="EEPRPСommandModules\InstallationDoorWindowLintels\LintelCreatorWPF.xaml">
       <SubType>Designer</SubType>
