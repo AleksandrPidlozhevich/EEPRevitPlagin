@@ -161,6 +161,7 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="EEPRPСommandModules\InstallationDoorWindowLintels\InstallationDoorWindowLintelsCommand.cs" />
+    <Compile Include="EEPRPСommandModules\InstallationDoorWindowLintels\LintelCreatorSettings.cs" />
     <Compile Include="EEPRPСommandModules\InstallationDoorWindowLintels\LintelCreatorWPF.xaml.cs">
       <DependentUpon>LintelCreatorWPF.xaml</DependentUpon>
     </Compile>
