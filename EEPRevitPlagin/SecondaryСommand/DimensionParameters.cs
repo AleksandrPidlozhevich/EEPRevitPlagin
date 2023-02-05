@@ -20,4 +20,3 @@ namespace EEPRevitPlagin.SecondaryСommand
         }
     }
 }
-

@@ -18,13 +18,13 @@ namespace EEPRevitPlagin.EEPRPСommandModules.InstallationDoorWindowLintels
         public static LintelCreatorSettings GetSettings()
         {
             LintelCreatorSettings lintelCreatorSettings = null;
-            string assemblyPathAll = System.Reflection.Assembly.GetExecutingAssembly().Location;
             string fileName = "LintelCreatorSettings.xml";
-            string assemblyPath = assemblyPathAll.Replace("LintelCreator.dll", fileName);
+            string assemblyDirectory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string filePath = Path.Combine(assemblyDirectory, "EEPRPСommandModules\\InstallationDoorWindowLintels", fileName);
 
-            if (File.Exists(assemblyPath))
+            if (File.Exists(filePath))
             {
-                using (FileStream fs = new FileStream(assemblyPath, FileMode.Open))
+                using (FileStream fs = new FileStream(filePath, FileMode.Open))
                 {
                     XmlSerializer xSer = new XmlSerializer(typeof(LintelCreatorSettings));
                     lintelCreatorSettings = xSer.Deserialize(fs) as LintelCreatorSettings;
@@ -41,16 +41,16 @@ namespace EEPRevitPlagin.EEPRPСommandModules.InstallationDoorWindowLintels
 
         public void Save()
         {
-            string assemblyPathAll = System.Reflection.Assembly.GetExecutingAssembly().Location;
             string fileName = "LintelCreatorSettings.xml";
-            string assemblyPath = assemblyPathAll.Replace("LintelCreator.dll", fileName);
+            string assemblyDirectory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string filePath = Path.Combine(assemblyDirectory, "EEPRPСommandModules\\InstallationDoorWindowLintels", fileName);
 
-            if (File.Exists(assemblyPath))
+            if (File.Exists(filePath))
             {
-                File.Delete(assemblyPath);
+                File.Delete(filePath);
             }
 
-            using (FileStream fs = new FileStream(assemblyPath, FileMode.Create))
+            using (FileStream fs = new FileStream(filePath, FileMode.Create))
             {
                 XmlSerializer xSer = new XmlSerializer(typeof(LintelCreatorSettings));
                 xSer.Serialize(fs, this);
