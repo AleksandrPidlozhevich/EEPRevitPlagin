@@ -1,6 +1,7 @@
 ﻿using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
+using EEPRevitPlagin.EEPRPCommandModules.InstallationDoorWindowLintels;
 using EEPRevitPlagin.SecondaryСommand;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EEPRevitPlagin.EEPRPСommandModules.InstallationDoorWindowLintels
+namespace EEPRevitPlagin.EEPRPCommandModules.InstallationDoorWindowLintels
 {
     [Autodesk.Revit.Attributes.Transaction(Autodesk.Revit.Attributes.TransactionMode.Manual)]
     internal class InstallationDoorWindowLintelsCommand : IExternalCommand
