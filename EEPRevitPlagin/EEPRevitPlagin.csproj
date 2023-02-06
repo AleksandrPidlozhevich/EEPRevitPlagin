@@ -165,7 +165,7 @@
     <Compile Include="EEPRPСommandModules\InstallationDoorWindowLintels\LintelCreatorWPF.xaml.cs">
       <DependentUpon>LintelCreatorWPF.xaml</DependentUpon>
     </Compile>
-    <Compile Include="EEPRPСommandModules\СuttingOpening\СuttingOpeningCommand.cs" />
+    <Compile Include="EEPRPСommandModules\CuttingOpening\CuttingOpeningCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecondaryСommand\ComparatorString.cs" />
     <Compile Include="SecondaryСommand\DimensionParameters.cs" />
@@ -186,13 +186,13 @@
     <Content Include="EEPRPСommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand_small.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPСommandModules\СuttingOpening\data\СuttingOpeningCommand.txt">
+    <Content Include="EEPRPСommandModules\CuttingOpening\data\CuttingOpeningCommand.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPСommandModules\СuttingOpening\data\СuttingOpeningCommand_large.png">
+    <Content Include="EEPRPСommandModules\CuttingOpening\data\CuttingOpeningCommand_large.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPСommandModules\СuttingOpening\data\СuttingOpeningCommand_small.png">
+    <Content Include="EEPRPСommandModules\CuttingOpening\data\CuttingOpeningCommand_small.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
