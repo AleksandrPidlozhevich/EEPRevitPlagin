@@ -62,7 +62,11 @@ namespace EEPRevitPlagin
         }
         public PushButtonData CreateButtonData(string assemblyName, string className)
         {
+<<<<<<< HEAD
             string fullClassname = "EEPRevitPlagin.EEPRPCommandModules." + assemblyName + "." + className;
+=======
+            string fullClassname = "EEPRevitPlagin.EEPRPCommandModules."+ assemblyName + "." + className;
+>>>>>>> removed a small error
             string dataPath = Path.Combine(ribbonPath, assemblyName, "data");
             string largeIcon = Path.Combine(dataPath, className + "_large.png");
             string smallIcon = Path.Combine(dataPath, className + "_small.png");
