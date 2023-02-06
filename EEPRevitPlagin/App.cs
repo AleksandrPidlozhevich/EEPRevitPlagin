@@ -54,7 +54,7 @@ namespace EEPRevitPlagin
             //panelKR.AddItem(CreateButtonData("Test", "TestCommand"));
             //panelKR.AddSeparator();
             RibbonPanel panelHVAC = uiApp.CreateRibbonPanel(tabName, "ИОС");
-            panelHVAC.AddItem(CreateButtonData("СuttingOpening", "СuttingOpeningCommand"));
+            panelHVAC.AddItem(CreateButtonData("CuttingOpening", "CuttingOpeningCommand"));
             panelHVAC.AddSeparator();
 
             RibbonPanel panelServer = uiApp.CreateRibbonPanel(tabName, "Revit Server");
