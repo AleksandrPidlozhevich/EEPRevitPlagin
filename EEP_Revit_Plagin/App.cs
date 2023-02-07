@@ -52,6 +52,7 @@ namespace EEP_Revit_Plagin
             //panelKR.AddSeparator();
             RibbonPanel panelHVAC = uiApp.CreateRibbonPanel(tabName, "ИОС");
             panelHVAC.AddItem(CreateButtonData("СuttingOpening", "СuttingOpeningCommand"));
+            panelHVAC.AddItem(CreateButtonData("FontChanging", "FontChangingCommand"));
             panelHVAC.AddSeparator();
         }
         public PushButtonData CreateButtonData(string assemblyName, string className)

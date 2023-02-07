@@ -1,0 +1,3 @@
+﻿Изменить\nшрифт
+Изменение шрифта в проекте и аннотациях.
+https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin
