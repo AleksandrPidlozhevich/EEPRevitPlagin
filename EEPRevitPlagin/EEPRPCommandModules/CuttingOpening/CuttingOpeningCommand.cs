@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace EEPRevitPlagin.EEPRPCommandModules.СuttingOpening
 {
+    [Autodesk.Revit.Attributes.Transaction(Autodesk.Revit.Attributes.TransactionMode.Manual)]
     internal class CuttingOpeningCommand : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)

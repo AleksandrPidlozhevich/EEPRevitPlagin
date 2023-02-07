@@ -62,6 +62,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -86,6 +94,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -152,7 +168,7 @@
             "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\Печать\\LogoEEP\\EEPlogo1.ico"
             "TargetName" = "8:EEPlogo1.ico"
             "Tag" = "8:"
-            "Folder" = "8:_11BD73E698794F64AB5F786F51BE8C3F"
+            "Folder" = "8:_4A2B002B5BD9418EA503528408546B26"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -255,7 +271,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:EEPInstaller"
         "ProductCode" = "8:{FAF75369-8545-4C54-A76D-AE4FA43AD76B}"
-        "PackageCode" = "8:{FDBAE36E-2454-4555-8962-A833CC7DA71D}"
+        "PackageCode" = "8:{C5F39173-732B-463B-83A9-1336E2F69812}"
         "UpgradeCode" = "8:{70FA1332-2F2D-400C-92D7-A95EB7DBDEDE}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
