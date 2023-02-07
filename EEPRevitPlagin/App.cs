@@ -54,12 +54,12 @@ namespace EEPRevitPlagin
             //panelKR.AddItem(CreateButtonData("Test", "TestCommand"));
             //panelKR.AddSeparator();
             RibbonPanel panelHVAC = uiApp.CreateRibbonPanel(tabName, "ИОС");
-            panelHVAC.AddItem(CreateButtonData("СuttingOpening", "СuttingOpeningCommand"));
+            panelHVAC.AddItem(CreateButtonData("CuttingOpening", "CuttingOpeningCommand"));
             panelHVAC.AddSeparator();
         }
         public PushButtonData CreateButtonData(string assemblyName, string className)
         {
-            string fullClassname = "EEPRevitPlagin.EEPRPСommandModules."+ assemblyName + "." + className;
+            string fullClassname = "EEPRevitPlagin.EEPRPCommandModules."+ assemblyName + "." + className;
             string dataPath = Path.Combine(ribbonPath, assemblyName, "data");
             string largeIcon = Path.Combine(dataPath, className + "_large.png");
             string smallIcon = Path.Combine(dataPath, className + "_small.png");

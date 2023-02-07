@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EEPRevitPlagin.EEPRPСommandModules.СuttingOpening
+namespace EEPRevitPlagin.EEPRPCommandModules.СuttingOpening
 {
-    internal class СuttingOpeningCommand : IExternalCommand
+    internal class CuttingOpeningCommand : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {

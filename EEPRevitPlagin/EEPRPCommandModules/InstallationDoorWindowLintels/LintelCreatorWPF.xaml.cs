@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EEPRevitPlagin.EEPRPСommandModules.InstallationDoorWindowLintels
+namespace EEPRevitPlagin.EEPRPCommandModules.InstallationDoorWindowLintels
 {
     /// <summary>
     /// Interaction logic for LintelCreatorWPF.xaml

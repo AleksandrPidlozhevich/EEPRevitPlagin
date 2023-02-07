@@ -66,8 +66,9 @@
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
@@ -162,12 +163,18 @@
   </Choose>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="EEPRPСommandModules\InstallationDoorWindowLintels\InstallationDoorWindowLintelsCommand.cs" />
-    <Compile Include="EEPRPСommandModules\InstallationDoorWindowLintels\LintelCreatorSettings.cs" />
-    <Compile Include="EEPRPСommandModules\InstallationDoorWindowLintels\LintelCreatorWPF.xaml.cs">
+    <Compile Include="EEPRPCommandModules\InstallationDoorWindowLintels\InstallationDoorWindowLintelsCommand.cs" />
+    <Compile Include="EEPRPCommandModules\InstallationDoorWindowLintels\LintelCreatorSettings.cs" />
+    <Compile Include="EEPRPCommandModules\InstallationDoorWindowLintels\LintelCreatorWPF.xaml.cs">
       <DependentUpon>LintelCreatorWPF.xaml</DependentUpon>
     </Compile>
-    <Compile Include="EEPRPСommandModules\СuttingOpening\СuttingOpeningCommand.cs" />
+    <Compile Include="EEPRPCommandModules\CuttingOpening\CuttingOpeningCommand.cs" />
+    <Compile Include="InstallerEEP.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InstallerEEP.Designer.cs">
+      <DependentUpon>InstallerEEP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecondaryСommand\ComparatorString.cs" />
     <Compile Include="SecondaryСommand\DimensionParameters.cs" />
@@ -180,28 +187,28 @@
     <None Include="Addin\EEPRevitPlagin_2021.addin" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EEPRPСommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand.txt">
+    <Content Include="EEPRPCommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPСommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand_large.png">
+    <Content Include="EEPRPCommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand_large.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPСommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand_small.png">
+    <Content Include="EEPRPCommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand_small.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPСommandModules\СuttingOpening\data\СuttingOpeningCommand.txt">
+    <Content Include="EEPRPCommandModules\CuttingOpening\data\CuttingOpeningCommand.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPСommandModules\СuttingOpening\data\СuttingOpeningCommand_large.png">
+    <Content Include="EEPRPCommandModules\CuttingOpening\data\CuttingOpeningCommand_large.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPСommandModules\СuttingOpening\data\СuttingOpeningCommand_small.png">
+    <Content Include="EEPRPCommandModules\CuttingOpening\data\CuttingOpeningCommand_small.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Page Include="EEPRPСommandModules\InstallationDoorWindowLintels\LintelCreatorWPF.xaml">
+    <Page Include="EEPRPCommandModules\InstallationDoorWindowLintels\LintelCreatorWPF.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
