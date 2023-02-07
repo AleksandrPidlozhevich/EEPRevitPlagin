@@ -189,13 +189,13 @@
     <None Include="Addin\EEPRevitPlagin_2021.addin" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EEPRPCommandModules\IFCExport\data\CuttingOpeningCommand.txt">
+    <Content Include="EEPRPCommandModules\IFCExport\data\IFCExportCommand.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPCommandModules\IFCExport\data\CuttingOpeningCommand_large.png">
+    <Content Include="EEPRPCommandModules\IFCExport\data\IFCExportCommand_large.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPCommandModules\IFCExport\data\CuttingOpeningCommand_small.png">
+    <Content Include="EEPRPCommandModules\IFCExport\data\IFCExportCommand_small.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="EEPRPCommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand.txt">
