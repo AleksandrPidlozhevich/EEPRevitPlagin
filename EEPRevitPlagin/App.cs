@@ -56,6 +56,9 @@ namespace EEPRevitPlagin
             RibbonPanel panelHVAC = uiApp.CreateRibbonPanel(tabName, "ИОС");
             panelHVAC.AddItem(CreateButtonData("CuttingOpening", "CuttingOpeningCommand"));
             panelHVAC.AddSeparator();
+            RibbonPanel panelBIM = uiApp.CreateRibbonPanel(tabName, "BIM");
+            panelBIM.AddItem(CreateButtonData("IFCExport", "IFCExportCommand"));
+            panelBIM.AddSeparator();
         }
         public PushButtonData CreateButtonData(string assemblyName, string className)
         {
