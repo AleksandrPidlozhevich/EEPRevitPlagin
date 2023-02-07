@@ -22,7 +22,7 @@ namespace EEPRevitPlagin
         {
             assemblyPath = typeof(App).Assembly.Location;
             assemblyFolder = Path.GetDirectoryName(assemblyPath);
-            ribbonPath = Path.Combine(assemblyFolder, "EEPRPСommandModules");
+            ribbonPath = Path.Combine(assemblyFolder, "EEPRPCommandModules");
 
             string tabName = "EEP";
             try { application.CreateRibbonTab(tabName); } catch { }

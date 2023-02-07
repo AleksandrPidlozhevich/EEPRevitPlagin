@@ -20,7 +20,7 @@ namespace EEPRevitPlagin.EEPRPCommandModules.InstallationDoorWindowLintels
             LintelCreatorSettings lintelCreatorSettings = null;
             string fileName = "LintelCreatorSettings.xml";
             string assemblyDirectory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-            string filePath = Path.Combine(assemblyDirectory, "EEPRPСommandModules\\InstallationDoorWindowLintels", fileName);
+            string filePath = Path.Combine(assemblyDirectory, "EEPRPCommandModules\\InstallationDoorWindowLintels", fileName);
 
             if (File.Exists(filePath))
             {
@@ -43,7 +43,7 @@ namespace EEPRevitPlagin.EEPRPCommandModules.InstallationDoorWindowLintels
         {
             string fileName = "LintelCreatorSettings.xml";
             string assemblyDirectory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-            string filePath = Path.Combine(assemblyDirectory, "EEPRPСommandModules\\InstallationDoorWindowLintels", fileName);
+            string filePath = Path.Combine(assemblyDirectory, "EEPRPCommandModules\\InstallationDoorWindowLintels", fileName);
 
             if (File.Exists(filePath))
             {
