@@ -2,10 +2,6 @@
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EEPRevitPlagin.EEPRPCommandModules.IFCExport
 {
@@ -16,13 +12,13 @@ namespace EEPRevitPlagin.EEPRPCommandModules.IFCExport
         {
             Document doc = commandData.Application.ActiveUIDocument.Document;
 
-            using (var ts = new Transaction(doc, "export IFC"))
+            using (var ts = new Transaction(doc, "exportIFC"))
             {
                 ts.Start();
 
                 var ifcOption = new IFCExportOptions();
 
-                doc.Export(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "3dmodel.ifc", ifcOption);
+                doc.Export(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "export.ifc", ifcOption);
 
                 ts.Commit();
             }
