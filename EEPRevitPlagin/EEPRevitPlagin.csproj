@@ -169,6 +169,12 @@
       <DependentUpon>LintelCreatorWPF.xaml</DependentUpon>
     </Compile>
     <Compile Include="EEPRPCommandModules\CuttingOpening\CuttingOpeningCommand.cs" />
+    <Compile Include="InstallerEEP.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InstallerEEP.Designer.cs">
+      <DependentUpon>InstallerEEP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecondaryСommand\ComparatorString.cs" />
     <Compile Include="SecondaryСommand\DimensionParameters.cs" />
