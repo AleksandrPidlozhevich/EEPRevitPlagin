@@ -1,0 +1,44 @@
+﻿<Window x:Class="EEPRevitPlagin.EEPRPСommandModules.RevitServerExport.RevitServerExportWPF"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EEPRevitPlagin.EEPRPСommandModules.RevitServerExport"
+             mc:Ignorable="d" 
+             d:DesignHeight="450"
+             WindowStyle="None"
+        Background="Transparent"
+        ResizeMode="NoResize" Width="413">
+
+    <Border Background="#272567" CornerRadius="30">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition>
+                </ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50">
+                </RowDefinition>
+                <RowDefinition Height="100">
+                </RowDefinition>
+                <RowDefinition Height="250">
+                </RowDefinition>
+                <RowDefinition>
+                </RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Revit Server - Export Models" FontSize="20" FontFamily="Calibri" FontWeight="Black" Foreground="Beige" Margin="10" />
+            <Label Content="Server IP"  HorizontalAlignment="Left" Margin="17,15,0,0" Grid.Row="1" VerticalAlignment="Top" Width="69" Height="27" Foreground="Beige"/>
+            <Label Content="Revit Version" HorizontalAlignment="Left" Margin="17,50,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Beige"/>
+            <TextBox Background="Transparent" Foreground="Beige" Text="192.168.1.10" HorizontalAlignment="Left" Margin="110,20,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Background="Transparent" Foreground="Beige" Text="2021"  HorizontalAlignment="Left" Margin="110,54,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <DataGrid Grid.Row="2" Margin="15,0,15,0" Background="Transparent" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+            <Button Content="Button" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="290,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="83"/>
+
+        </Grid>
+
+    </Border>
+
+
+
+</Window>
