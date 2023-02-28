@@ -95,6 +95,10 @@
           <HintPath>C:\Program Files\Autodesk\Revit 2019\AdWindows.dll</HintPath>
           <Private>False</Private>
         </Reference>
+		<Reference Include="Autodesk.Navisworks.Automation">
+          <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2019\Autodesk.Navisworks.Automation.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </When>
     <When Condition=" '$(Configuration)'=='R2020' ">
@@ -109,6 +113,10 @@
         </Reference>
         <Reference Include="AdWindows">
           <HintPath>C:\Program Files\Autodesk\Revit 2020\AdWindows.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
+		<Reference Include="Autodesk.Navisworks.Automation">
+          <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2020\Autodesk.Navisworks.Automation.dll</HintPath>
           <Private>False</Private>
         </Reference>
       </ItemGroup>
@@ -127,6 +135,10 @@
           <HintPath>C:\Program Files\Autodesk\Revit 2021\AdWindows.dll</HintPath>
           <Private>False</Private>
         </Reference>
+		<Reference Include="Autodesk.Navisworks.Automation">
+          <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2021\Autodesk.Navisworks.Automation.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </When>
     <When Condition=" '$(Configuration)'=='R2022' ">
@@ -141,6 +153,10 @@
         </Reference>
         <Reference Include="AdWindows">
           <HintPath>C:\Program Files\Autodesk\Revit 2022\AdWindows.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
+		<Reference Include="Autodesk.Navisworks.Automation">
+          <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2022\Autodesk.Navisworks.Automation.dll</HintPath>
           <Private>False</Private>
         </Reference>
       </ItemGroup>
@@ -158,6 +174,10 @@
         <Reference Include="AdWindows">
           <HintPath>C:\Program Files\Autodesk\Revit 2023\AdWindows.dll</HintPath>
           <Private>False</Private>
+		</Reference>
+		<Reference Include="Autodesk.Navisworks.Automation">
+          <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2023\Autodesk.Navisworks.Automation.dll</HintPath>
+          <Private>False</Private>
         </Reference>
       </ItemGroup>
     </When>
@@ -171,8 +191,12 @@
       <DependentUpon>LintelCreatorWPF.xaml</DependentUpon>
     </Compile>
     <Compile Include="EEPRPCommandModules\CuttingOpening\CuttingOpeningCommand.cs" />
+    <Compile Include="EEPRPCommandModules\RevitServerExport\ExportModels.cs" />
     <Compile Include="EEPRPCommandModules\RevitServerExport\RevitServerExportCommand.cs" />
-    <Compile Include="EEPRPCommandModules\RevitServerExport\RevitServerExportWPF.xaml.cs" />
+    <Compile Include="EEPRPCommandModules\RevitServerExport\RevitServerExportWPF.xaml.cs">
+      <DependentUpon>RevitServerExportWPF.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EEPRPCommandModules\RevitServerExport\RevitServerTools.cs" />
     <Compile Include="InstallerEEP.cs">
       <SubType>Component</SubType>
     </Compile>

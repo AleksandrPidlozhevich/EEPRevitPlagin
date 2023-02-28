@@ -15,26 +15,20 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_37FBF3A36C994507B53320B29360D67A"
+        "MsmKey" = "8:_20A6DA4C91A9436FB284D95403E38447"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_89F324F678C8426FBBC665499772AD1E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A28D7261E0D4401285A7847009382F45"
+        "MsmKey" = "8:_71EF6EFBCEE44D9F93FA96CB57CDCAEC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_37FBF3A36C994507B53320B29360D67A"
+        "OwnerKey" = "8:_71EF6EFBCEE44D9F93FA96CB57CDCAEC"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -132,21 +126,10 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_37FBF3A36C994507B53320B29360D67A"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_20A6DA4C91A9436FB284D95403E38447"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:EEPRevitPlagin_2021, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_37FBF3A36C994507B53320B29360D67A"
-                    {
-                    "Name" = "8:EEPRevitPlagin_2021.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2021\\EEPRevitPlagin_2021.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\EEPRevitPlagin\\Addin\\EEPRevitPlagin_2021.addin"
+            "TargetName" = "8:EEPRevitPlagin_2021.addin"
             "Tag" = "8:"
             "Folder" = "8:_2C0FE94B89B2464E8488CBFF5C0B8F95"
             "Condition" = "8:"
@@ -163,30 +146,21 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_89F324F678C8426FBBC665499772AD1E"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_71EF6EFBCEE44D9F93FA96CB57CDCAEC"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\Печать\\LogoEEP\\EEPlogo1.ico"
-            "TargetName" = "8:EEPlogo1.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_4A2B002B5BD9418EA503528408546B26"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A28D7261E0D4401285A7847009382F45"
-            {
-            "SourcePath" = "8:..\\EEPRevitPlagin\\Addin\\EEPRevitPlagin_2021.addin"
-            "TargetName" = "8:EEPRevitPlagin_2021.addin"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:EEPRevitPlagin_2021, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_71EF6EFBCEE44D9F93FA96CB57CDCAEC"
+                    {
+                    "Name" = "8:EEPRevitPlagin_2021.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2021\\EEPRevitPlagin_2021.dll"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_2C0FE94B89B2464E8488CBFF5C0B8F95"
             "Condition" = "8:"
@@ -254,6 +228,17 @@
                     }
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_DA50F5656BE7417CB2B232445096F863"
+            {
+            "Name" = "8:#1911"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:FontsFolder"
+                "Folders"
+                {
+                }
+            }
         }
         "LaunchCondition"
         {
@@ -288,7 +273,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_89F324F678C8426FBBC665499772AD1E"
+        "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -790,7 +775,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_B7D1C61A53F944DB8319180C1481A730"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7B54C0E3A7C74D89B48208B6816FFE74"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"

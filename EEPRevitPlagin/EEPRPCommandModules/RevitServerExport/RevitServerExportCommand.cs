@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Autodesk.Revit.UI;
+﻿using Autodesk.Revit.UI;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.UI.Events;
-using EEPRevitPlagin.EEPRPСommandModules.RevitServerExport;
+
 
 namespace EEPRevitPlagin.EEPRPCommandModules.RevitServerExport
 {
@@ -24,16 +19,32 @@ namespace EEPRevitPlagin.EEPRPCommandModules.RevitServerExport
             uidoc = uiapp.ActiveUIDocument;
             Autodesk.Revit.ApplicationServices.Application app = uiapp.Application;
             doc = uidoc.Document;
-            uiapp.DialogBoxShowing += UiAppOnDialogBoxShowing;
+            //uiapp.DialogBoxShowing += UiAppOnDialogBoxShowing;
             RevitServerExportWPF exportWPF = new RevitServerExportWPF();
             exportWPF.ShowDialog();
-            TaskDialog.Show("ok", "ok");
             return Result.Succeeded;
         }
         private static void UiAppOnDialogBoxShowing(object sender, DialogBoxShowingEventArgs args)
         {
-            args.OverrideResult(1001);
-            args.Cancel();
+
+            var dialogId = args.DialogId;
+            var dialogType = args.GetType();
+            bool isCanceled = args.Cancellable;
+
+
+            if (dialogId == "Dialog_Revit_DocWarnDialog")
+            {
+                args.OverrideResult((int)TaskDialogResult.Ok);
+            }
+            else
+            {
+                if (args.IsCancelled())
+                {
+                    args.Cancel();
+                }
+            }
+
+
         }
     }
 }

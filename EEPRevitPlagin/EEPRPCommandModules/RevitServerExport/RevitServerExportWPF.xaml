@@ -4,15 +4,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:EEPRevitPlagin.EEPRPCommandModules.RevitServerExport"
-             mc:Ignorable="d" 
-             d:DesignHeight="450"
-             WindowStyle="None"
+             mc:Ignorable="d"
+WindowStyle="None"
+        
         Background="Transparent"
-        ResizeMode="NoResize" Width="413">
+        ResizeMode="NoResize"   Width="792" Height="447" MouseDown="Window_MouseDown">
 
-    <Border Background="#272567" CornerRadius="30">
+    <Border Background="#272567" CornerRadius="0"  >
 
-        <Grid>
+        <Grid Background="Transparent">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition>
                 </ColumnDefinition>
@@ -22,18 +22,31 @@
                 </RowDefinition>
                 <RowDefinition Height="100">
                 </RowDefinition>
-                <RowDefinition Height="250">
+                <RowDefinition Height="220">
                 </RowDefinition>
-                <RowDefinition>
+                <RowDefinition Height="70">
                 </RowDefinition>
             </Grid.RowDefinitions>
             <TextBlock Text="Revit Server - Export Models" FontSize="20" FontFamily="Calibri" FontWeight="Black" Foreground="Beige" Margin="10" />
-            <Label Content="Server IP"  HorizontalAlignment="Left" Margin="17,15,0,0" Grid.Row="1" VerticalAlignment="Top" Width="69" Height="27" Foreground="Beige"/>
-            <Label Content="Revit Version" HorizontalAlignment="Left" Margin="17,50,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Beige"/>
-            <TextBox Background="Transparent" Foreground="Beige" Text="192.168.1.10" HorizontalAlignment="Left" Margin="110,20,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-            <TextBox Background="Transparent" Foreground="Beige" Text="2021"  HorizontalAlignment="Left" Margin="110,54,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-            <DataGrid Grid.Row="2" Margin="15,0,15,0" Background="Transparent" d:ItemsSource="{d:SampleData ItemCount=5}"/>
-            <Button Content="Button" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="290,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="83"/>
+            <Label Content="Server IP"  HorizontalAlignment="Left" Margin="17,5,0,0" Grid.Row="1" VerticalAlignment="Top" Width="69" Height="27" Foreground="Beige"/>
+            <Label Content="Revit Version" HorizontalAlignment="Left" Margin="17,34,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Beige"/>
+            <TextBox x:Name="server" Background="Transparent" Foreground="Beige" Text="192.168.1.10" HorizontalAlignment="Left" Margin="110,10,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+            <TextBox x:Name="revision" Background="Transparent" Foreground="Beige" Text="2021"  HorizontalAlignment="Left" Margin="110,38,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+            <DataGrid x:Name="ModelTable"   Grid.Row="2" Margin="15,0,15,0" Background="Transparent" ItemsSource="{Binding}" SelectionMode="Single" />
+            <Button Content="Exit" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="674,45,0,0" Grid.Row="3" VerticalAlignment="Top" Width="83" Click="Button_Click"/>
+            <Button x:Name="B1" Content="Connect to Server" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="320,9,0,0" Grid.Row="1" VerticalAlignment="Top" Width="122" Click="Button_Click_1" Height="28"/>
+            <Label Content="Project" HorizontalAlignment="Left" Margin="17,65,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Beige"/>
+            <ComboBox x:Name="combo1"  HorizontalAlignment="Left" Margin="110,69,0,0" Grid.Row="1" VerticalAlignment="Top" Width="199" SelectionChanged="combo1_SelectionChanged"/>
+            <Button Content="Export Selected Models" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="400,45,0,0" Grid.Row="3" VerticalAlignment="Top" Width="146" Click="Export_Button"/>
+            <Label Content="Save to:"  HorizontalAlignment="Left" Margin="22,12,0,0" Grid.Row="3" VerticalAlignment="Top" Width="68" Height="27" Foreground="Beige"/>
+            <TextBox x:Name="folderTB" Background="Transparent" Foreground="Beige" Text="C:\navis models" HorizontalAlignment="Left" Margin="79,17,0,0" Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Top" Width="467"/>
+            <Label Content="Navis view contains"  HorizontalAlignment="Left" Margin="473,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="115" Height="27" Foreground="Beige"/>
+            <Label Content="ifc view cintains"  HorizontalAlignment="Left" Margin="473,42,0,0" Grid.Row="1" VerticalAlignment="Top" Width="115" Height="27" Foreground="Beige"/>
+            <TextBox x:Name="nwcTB" Background="Transparent" Foreground="Beige" Text="Navis" HorizontalAlignment="Left" Margin="593,15,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+            <TextBox x:Name="ifcTB" Background="Transparent" Foreground="Beige" Text="ifc" HorizontalAlignment="Left" Margin="593,51,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+            <CheckBox x:Name="checkBox1" Content="Combine all nwc to one nwd file" Foreground="Beige" HorizontalAlignment="Left" Margin="79,45,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+            <Button x:Name="B1_Copy" Content="Add Models manually" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="320,46,0,0" Grid.Row="1" VerticalAlignment="Top" Width="122" Height="28" Click="B1_Copy_Click"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="593,17,0,0" Grid.Row="3" VerticalAlignment="Top" Click="Button_Click_2"/>
 
         </Grid>
 
