@@ -171,6 +171,8 @@
       <DependentUpon>LintelCreatorWPF.xaml</DependentUpon>
     </Compile>
     <Compile Include="EEPRPCommandModules\CuttingOpening\CuttingOpeningCommand.cs" />
+    <Compile Include="EEPRPCommandModules\RevitServerExport\RevitServerExportCommand.cs" />
+    <Compile Include="EEPRPCommandModules\RevitServerExport\RevitServerExportWPF.xaml.cs" />
     <Compile Include="InstallerEEP.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -215,12 +217,19 @@
     <Content Include="EEPRPCommandModules\CuttingOpening\data\CuttingOpeningCommand_small.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="EEPRPCommandModules\RevitServerExport\data\RevitServerExportCommand.txt" />
+    <Content Include="EEPRPCommandModules\RevitServerExport\data\RevitServerExportCommand_large.png" />
+    <Content Include="EEPRPCommandModules\RevitServerExport\data\RevitServerExportCommand_small.png" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <Page Include="EEPRPCommandModules\InstallationDoorWindowLintels\LintelCreatorWPF.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EEPRPCommandModules\RevitServerExport\RevitServerExportWPF.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

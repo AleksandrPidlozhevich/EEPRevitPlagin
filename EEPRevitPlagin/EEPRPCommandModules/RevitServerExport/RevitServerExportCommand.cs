@@ -7,8 +7,9 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.UI.Events;
+using EEPRevitPlagin.EEPRPСommandModules.RevitServerExport;
 
-namespace EEPRevitPlagin.EEPRPСommandModules.RevitServerExport
+namespace EEPRevitPlagin.EEPRPCommandModules.RevitServerExport
 {
     [Transaction(TransactionMode.Manual)]
     internal class RevitServerExportCommand : IExternalCommand

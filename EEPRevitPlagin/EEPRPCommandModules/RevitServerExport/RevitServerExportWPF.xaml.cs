@@ -25,6 +25,9 @@ namespace EEPRevitPlagin.EEPRPСommandModules.RevitServerExport
             InitializeComponent();
         }
 
-
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
