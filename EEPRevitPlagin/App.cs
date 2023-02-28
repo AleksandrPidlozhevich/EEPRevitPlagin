@@ -59,10 +59,17 @@ namespace EEPRevitPlagin
             RibbonPanel panelBIM = uiApp.CreateRibbonPanel(tabName, "BIM");
             panelBIM.AddItem(CreateButtonData("IFCExport", "IFCExportCommand"));
             panelBIM.AddSeparator();
+
+            RibbonPanel panelServer = uiApp.CreateRibbonPanel(tabName, "Revit Server");
+            panelServer.AddItem(CreateButtonData("RevitServerExport", "RevitServerExportCommand"));
         }
         public PushButtonData CreateButtonData(string assemblyName, string className)
         {
+<<<<<<< HEAD
+            string fullClassname = "EEPRevitPlagin.EEPRPCommandModules." + assemblyName + "." + className;
+=======
             string fullClassname = "EEPRevitPlagin.EEPRPCommandModules."+ assemblyName + "." + className;
+>>>>>>> removed a small error
             string dataPath = Path.Combine(ribbonPath, assemblyName, "data");
             string largeIcon = Path.Combine(dataPath, className + "_large.png");
             string smallIcon = Path.Combine(dataPath, className + "_small.png");

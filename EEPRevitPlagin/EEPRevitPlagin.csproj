@@ -181,7 +181,6 @@
     <Compile Include="SecondaryСommand\ComparatorString.cs" />
     <Compile Include="SecondaryСommand\DimensionParameters.cs" />
     <Compile Include="SecondaryСommand\OrdinalStringComparer.cs" />
-    <Compile Include="SecondaryСommand\RevitServerTools.cs" />
     <Compile Include="SecondaryСommand\SymboolParameters.cs" />
     <Compile Include="SecondaryСommand\WindowsAndDoorsSelectionFilter.cs" />
   </ItemGroup>
