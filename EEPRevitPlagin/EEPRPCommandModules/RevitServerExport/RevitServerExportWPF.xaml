@@ -39,14 +39,13 @@ WindowStyle="None"
             <ComboBox x:Name="combo1"  HorizontalAlignment="Left" Margin="110,69,0,0" Grid.Row="1" VerticalAlignment="Top" Width="199" SelectionChanged="combo1_SelectionChanged"/>
             <Button Content="Export Selected Models" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="400,45,0,0" Grid.Row="3" VerticalAlignment="Top" Width="146" Click="Export_Button"/>
             <Label Content="Save to:"  HorizontalAlignment="Left" Margin="22,12,0,0" Grid.Row="3" VerticalAlignment="Top" Width="68" Height="27" Foreground="Beige"/>
-            <TextBox x:Name="folderTB" Background="Transparent" Foreground="Beige" Text="C:\navis models" HorizontalAlignment="Left" Margin="79,17,0,0" Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Top" Width="467"/>
+            <TextBox x:Name="folderTB" Background="Transparent" Foreground="Beige" Text="C:\navis models" HorizontalAlignment="Left" Margin="79,17,0,0" Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Top" Width="550"/>
             <Label Content="Navis view contains"  HorizontalAlignment="Left" Margin="473,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="115" Height="27" Foreground="Beige"/>
             <Label Content="ifc view cintains"  HorizontalAlignment="Left" Margin="473,42,0,0" Grid.Row="1" VerticalAlignment="Top" Width="115" Height="27" Foreground="Beige"/>
             <TextBox x:Name="nwcTB" Background="Transparent" Foreground="Beige" Text="Navis" HorizontalAlignment="Left" Margin="593,15,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
             <TextBox x:Name="ifcTB" Background="Transparent" Foreground="Beige" Text="ifc" HorizontalAlignment="Left" Margin="593,51,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
             <CheckBox x:Name="checkBox1" Content="Combine all nwc to one nwd file" Foreground="Beige" HorizontalAlignment="Left" Margin="79,45,0,0" Grid.Row="3" VerticalAlignment="Top"/>
             <Button x:Name="B1_Copy" Content="Add Models manually" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="320,46,0,0" Grid.Row="1" VerticalAlignment="Top" Width="122" Height="28" Click="B1_Copy_Click"/>
-            <Button Content="Button" HorizontalAlignment="Left" Margin="593,17,0,0" Grid.Row="3" VerticalAlignment="Top" Click="Button_Click_2"/>
 
         </Grid>
 
