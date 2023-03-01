@@ -16,9 +16,9 @@ namespace EEPRevitPlagin.EEPRPCommandModules.RevitServerExport
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             uiapp = commandData.Application;
-            uidoc = uiapp.ActiveUIDocument;
+            //uidoc = uiapp.ActiveUIDocument;
             Autodesk.Revit.ApplicationServices.Application app = uiapp.Application;
-            doc = uidoc.Document;
+            //doc = uidoc.Document;
             //uiapp.DialogBoxShowing += UiAppOnDialogBoxShowing;
             RevitServerExportWPF exportWPF = new RevitServerExportWPF();
             exportWPF.ShowDialog();

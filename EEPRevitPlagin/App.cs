@@ -60,7 +60,7 @@ namespace EEPRevitPlagin
             panelBIM.AddItem(CreateButtonData("IFCExport", "IFCExportCommand", false));
             panelBIM.AddSeparator();
             RibbonPanel panelServer = uiApp.CreateRibbonPanel(tabName, "Revit Server");
-            panelServer.AddItem(CreateButtonData("RevitServerExport", "RevitServerExportCommand", false));
+            panelServer.AddItem(CreateButtonData("RevitServerExport", "RevitServerExportCommand", true));
             panelServer.AddSeparator();
             
         }
