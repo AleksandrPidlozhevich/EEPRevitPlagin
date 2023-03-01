@@ -95,9 +95,9 @@
           <HintPath>C:\Program Files\Autodesk\Revit 2019\AdWindows.dll</HintPath>
           <Private>False</Private>
         </Reference>
-		<Reference Include="Autodesk.Navisworks.Automation">
+        <Reference Include="Autodesk.Navisworks.Automation">
           <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2019\Autodesk.Navisworks.Automation.dll</HintPath>
-          <Private>False</Private>
+          <Private>True</Private>
         </Reference>
       </ItemGroup>
     </When>
@@ -115,9 +115,9 @@
           <HintPath>C:\Program Files\Autodesk\Revit 2020\AdWindows.dll</HintPath>
           <Private>False</Private>
         </Reference>
-		<Reference Include="Autodesk.Navisworks.Automation">
+        <Reference Include="Autodesk.Navisworks.Automation">
           <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2020\Autodesk.Navisworks.Automation.dll</HintPath>
-          <Private>False</Private>
+          <Private>True</Private>
         </Reference>
       </ItemGroup>
     </When>
@@ -135,9 +135,9 @@
           <HintPath>C:\Program Files\Autodesk\Revit 2021\AdWindows.dll</HintPath>
           <Private>False</Private>
         </Reference>
-		<Reference Include="Autodesk.Navisworks.Automation">
+        <Reference Include="Autodesk.Navisworks.Automation">
           <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2021\Autodesk.Navisworks.Automation.dll</HintPath>
-          <Private>False</Private>
+          <Private>True</Private>
         </Reference>
       </ItemGroup>
     </When>
@@ -155,9 +155,9 @@
           <HintPath>C:\Program Files\Autodesk\Revit 2022\AdWindows.dll</HintPath>
           <Private>False</Private>
         </Reference>
-		<Reference Include="Autodesk.Navisworks.Automation">
+        <Reference Include="Autodesk.Navisworks.Automation">
           <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2022\Autodesk.Navisworks.Automation.dll</HintPath>
-          <Private>False</Private>
+          <Private>True</Private>
         </Reference>
       </ItemGroup>
     </When>
@@ -174,10 +174,10 @@
         <Reference Include="AdWindows">
           <HintPath>C:\Program Files\Autodesk\Revit 2023\AdWindows.dll</HintPath>
           <Private>False</Private>
-		</Reference>
-		<Reference Include="Autodesk.Navisworks.Automation">
+        </Reference>
+        <Reference Include="Autodesk.Navisworks.Automation">
           <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2023\Autodesk.Navisworks.Automation.dll</HintPath>
-          <Private>False</Private>
+          <Private>True</Private>
         </Reference>
       </ItemGroup>
     </When>
