@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using Autodesk.Revit.UI;
+using Autodesk.Revit.DB;
 using System.Windows.Media.Imaging;
 using System.Reflection;
 #endregion
@@ -47,22 +48,23 @@ namespace EEPRevitPlagin
         private void CreateRibbon(UIControlledApplication uiApp, string tabName)
         {
             RibbonPanel panelAR = uiApp.CreateRibbonPanel(tabName, "АР");
-            panelAR.AddItem(CreateButtonData("InstallationDoorWindowLintels", "InstallationDoorWindowLintelsCommand"));
+            panelAR.AddItem(CreateButtonData("InstallationDoorWindowLintels", "InstallationDoorWindowLintelsCommand",false));
             panelAR.AddSeparator();
             //RibbonPanel panelKR = uiApp.CreateRibbonPanel(tabName, "КР");
             //panelKR.AddItem(CreateButtonData("Test", "TestCommand"));
             //panelKR.AddSeparator();
             RibbonPanel panelHVAC = uiApp.CreateRibbonPanel(tabName, "ИОС");
-            panelHVAC.AddItem(CreateButtonData("CuttingOpening", "CuttingOpeningCommand"));
+            panelHVAC.AddItem(CreateButtonData("CuttingOpening", "CuttingOpeningCommand", false));
             panelHVAC.AddSeparator();
             RibbonPanel panelBIM = uiApp.CreateRibbonPanel(tabName, "BIM");
-            panelBIM.AddItem(CreateButtonData("IFCExport", "IFCExportCommand"));
+            panelBIM.AddItem(CreateButtonData("IFCExport", "IFCExportCommand", false));
             panelBIM.AddSeparator();
             RibbonPanel panelServer = uiApp.CreateRibbonPanel(tabName, "Revit Server");
-            panelServer.AddItem(CreateButtonData("RevitServerExport", "RevitServerExportCommand"));
+            panelServer.AddItem(CreateButtonData("RevitServerExport", "RevitServerExportCommand", false));
             panelServer.AddSeparator();
+            
         }
-        public PushButtonData CreateButtonData(string assemblyName, string className)
+        public PushButtonData CreateButtonData(string assemblyName, string className,bool availableOnStartup)
         {
             string fullClassname = "EEPRevitPlagin.EEPRPCommandModules." + assemblyName + "." + className;
             string dataPath = Path.Combine(ribbonPath, assemblyName, "data");
@@ -80,7 +82,18 @@ namespace EEPRevitPlagin
             data.ToolTip = text[1];
             ContextualHelp chelp = new ContextualHelp(ContextualHelpType.Url, url);
             data.SetContextualHelp(chelp);
+            if (availableOnStartup)
+            {
+                data.AvailabilityClassName = "EEPRevitPlagin.Availability";
+            }
             return data;
+        }
+    }
+    public class Availability : IExternalCommandAvailability
+    {
+        public bool IsCommandAvailable(UIApplication a, CategorySet b)
+        {
+            return true;
         }
     }
 }
