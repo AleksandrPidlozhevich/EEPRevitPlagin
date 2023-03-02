@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_3D4B38E0DB80FFA160FEA16367487E38"
+        "OwnerKey" = "8:_71EF6EFBCEE44D9F93FA96CB57CDCAEC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_71EF6EFBCEE44D9F93FA96CB57CDCAEC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -29,6 +35,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_71EF6EFBCEE44D9F93FA96CB57CDCAEC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_3D4B38E0DB80FFA160FEA16367487E38"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -146,6 +158,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3D4B38E0DB80FFA160FEA16367487E38"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Automation, Version=18.0.1347.51, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_3D4B38E0DB80FFA160FEA16367487E38"
+                    {
+                    "Name" = "8:Autodesk.Navisworks.Automation.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Autodesk.Navisworks.Automation.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_2C0FE94B89B2464E8488CBFF5C0B8F95"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_71EF6EFBCEE44D9F93FA96CB57CDCAEC"
             {
             "AssemblyRegister" = "3:1"
@@ -255,15 +298,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:EEPInstaller"
-        "ProductCode" = "8:{FAF75369-8545-4C54-A76D-AE4FA43AD76B}"
-        "PackageCode" = "8:{C5F39173-732B-463B-83A9-1336E2F69812}"
+        "ProductCode" = "8:{10471820-EB84-4DFD-9C0D-49DC1EBFAE73}"
+        "PackageCode" = "8:{D919CAE3-3C68-43E8-AE56-FD2E0BA8683C}"
         "UpgradeCode" = "8:{70FA1332-2F2D-400C-92D7-A95EB7DBDEDE}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.0.1"
+        "ProductVersion" = "8:0.0.2"
         "Manufacturer" = "8:EEP"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
