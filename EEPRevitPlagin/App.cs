@@ -56,13 +56,12 @@ namespace EEPRevitPlagin
             //RibbonPanel panelHVAC = uiApp.CreateRibbonPanel(tabName, "ИОС");
             //panelHVAC.AddItem(CreateButtonData("CuttingOpening", "CuttingOpeningCommand", false));
             //panelHVAC.AddSeparator();
-            //RibbonPanel panelBIM = uiApp.CreateRibbonPanel(tabName, "BIM");
-            //panelBIM.AddItem(CreateButtonData("IFCExport", "IFCExportCommand", false));
-            //panelBIM.AddSeparator();
+            RibbonPanel panelBIM = uiApp.CreateRibbonPanel(tabName, "BIM");
+            panelBIM.AddItem(CreateButtonData("FontChanging", "FontChangingCommand", false));
+            panelBIM.AddSeparator();
             RibbonPanel panelServer = uiApp.CreateRibbonPanel(tabName, "Revit Server");
             panelServer.AddItem(CreateButtonData("RevitServerExport", "RevitServerExportCommand", true));
-            panelServer.AddSeparator();
-            
+            panelServer.AddSeparator();  
         }
         public PushButtonData CreateButtonData(string assemblyName, string className,bool availableOnStartup)
         {
