@@ -34,18 +34,18 @@ WindowStyle="None"
             <TextBox x:Name="revision" Background="Transparent" Foreground="Beige" Text="2021"  HorizontalAlignment="Left" Margin="110,38,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
             <DataGrid x:Name="ModelTable"   Grid.Row="2" Margin="15,0,15,0" Background="Transparent" ItemsSource="{Binding}" SelectionMode="Single" />
             <Button x:Name="exB1" Content="Exit" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="674,45,0,0" Grid.Row="3" VerticalAlignment="Top" Width="83" Click="Button_Click"/>
-            <Button x:Name="B1" Content="Connect to Server" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="320,9,0,0" Grid.Row="1" VerticalAlignment="Top" Width="122" Click="Button_Click_1" Height="28"/>
+            <Button x:Name="B1" Content="Connect to Server" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="320,9,0,0" Grid.Row="1" VerticalAlignment="Top" Width="175" Click="Button_Click_1" Height="28"/>
             <Label x:Name="proj" Content="Project" HorizontalAlignment="Left" Margin="17,65,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Beige" Width="78"/>
             <ComboBox x:Name="combo1"  HorizontalAlignment="Left" Margin="110,69,0,0" Grid.Row="1" VerticalAlignment="Top" Width="199" SelectionChanged="combo1_SelectionChanged"/>
-            <Button x:Name="exB" Content="Export Selected Models" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="400,45,0,0" Grid.Row="3" VerticalAlignment="Top" Width="146" Click="Export_Button"/>
+            <Button x:Name="exB" Content="Export Selected Models" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="400,45,0,0" Grid.Row="3" VerticalAlignment="Top" Width="201" Click="Export_Button"/>
             <Label x:Name="saveTo" Content="Save to:"  HorizontalAlignment="Left" Margin="17,12,0,0" Grid.Row="3" VerticalAlignment="Top" Width="88" Height="27" Foreground="Beige"/>
             <TextBox x:Name="folderTB" Background="Transparent" Foreground="Beige" Text="C:\navis models" HorizontalAlignment="Left" Margin="110,17,0,0" Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Top" Width="519"/>
-            <Label x:Name="navisView" Content="Navis view contains"  HorizontalAlignment="Left" Margin="473,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="115" Height="27" Foreground="Beige"/>
-            <Label x:Name="ifcView" Content="ifc view cintains"  HorizontalAlignment="Left" Margin="473,42,0,0" Grid.Row="1" VerticalAlignment="Top" Width="115" Height="27" Foreground="Beige"/>
-            <TextBox x:Name="nwcTB" Background="Transparent" Foreground="Beige" Text="Navis" HorizontalAlignment="Left" Margin="593,15,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
-            <TextBox x:Name="ifcTB" Background="Transparent" Foreground="Beige" Text="ifc" HorizontalAlignment="Left" Margin="593,51,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+            <Label x:Name="navisView" Content="Navis view contains"  HorizontalAlignment="Left" Margin="500,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="116" Height="27" Foreground="Beige"/>
+            <Label x:Name="ifcView" Content="ifc view cintains"  HorizontalAlignment="Left" Margin="500,42,0,0" Grid.Row="1" VerticalAlignment="Top" Width="116" Height="27" Foreground="Beige"/>
+            <TextBox x:Name="nwcTB" Background="Transparent" Foreground="Beige" Text="Navis" HorizontalAlignment="Left" Margin="620,15,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+            <TextBox x:Name="ifcTB" Background="Transparent" Foreground="Beige" Text="ifc" HorizontalAlignment="Left" Margin="620,51,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
             <CheckBox x:Name="checkBox1" Content="Combine all nwc to one nwd file" Foreground="Beige" HorizontalAlignment="Left" Margin="79,45,0,0" Grid.Row="3" VerticalAlignment="Top" Width="290"/>
-            <Button x:Name="B1_Copy" Content="Add Models manually" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="320,46,0,0" Grid.Row="1" VerticalAlignment="Top" Width="122" Height="28" Click="B1_Copy_Click"/>
+            <Button x:Name="B1_Copy" Content="Add Models manually" Foreground="Beige" Background="Transparent" HorizontalAlignment="Center" Margin="0,46,0,0" Grid.Row="1" VerticalAlignment="Top" Width="198" Height="28" Click="B1_Copy_Click"/>
             <Label Content="RU" FontSize="10" Foreground="Beige" BorderBrush="Bisque" BorderThickness="0.5" HorizontalAlignment="Left" Margin="748,16,0,0" VerticalAlignment="Top" MouseDown="Label_MouseDown"/>
 
         </Grid>
