@@ -265,7 +265,7 @@ namespace EEPRevitPlagin.EEPRPCommandModules.RevitServerExport
                 if (dlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
                     string filePath = dlg.FileName;
-                    combo1.Items.Add(filePath);
+                    combo1.Items.Add(Path.GetFileNameWithoutExtension( filePath));
                     Stream fileStream = dlg.OpenFile();
                     StreamReader streamReader = new StreamReader(fileStream);
                     models = streamReader.ReadToEnd();

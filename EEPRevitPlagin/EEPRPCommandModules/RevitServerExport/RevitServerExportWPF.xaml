@@ -45,7 +45,7 @@ WindowStyle="None"
             <TextBox x:Name="nwcTB" Background="Transparent" Foreground="Beige" Text="Navis" HorizontalAlignment="Left" Margin="620,15,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
             <TextBox x:Name="ifcTB" Background="Transparent" Foreground="Beige" Text="ifc" HorizontalAlignment="Left" Margin="620,51,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
             <CheckBox x:Name="checkBox1" Content="Combine all nwc to one nwd file" Foreground="Beige" HorizontalAlignment="Left" Margin="79,45,0,0" Grid.Row="3" VerticalAlignment="Top" Width="290"/>
-            <Button x:Name="B1_Copy" Content="Add Models manually" Foreground="Beige" Background="Transparent" HorizontalAlignment="Center" Margin="0,46,0,0" Grid.Row="1" VerticalAlignment="Top" Width="198" Height="28" Click="B1_Copy_Click"/>
+            <Button x:Name="B1_Copy" Content="Add Models manually" Foreground="Beige" Background="Transparent" HorizontalAlignment="Left" Margin="320,46,0,0" Grid.Row="1" VerticalAlignment="Top" Width="175" Height="28" Click="B1_Copy_Click"/>
             <Label Content="RU" FontSize="10" Foreground="Beige" BorderBrush="Bisque" BorderThickness="0.5" HorizontalAlignment="Left" Margin="748,16,0,0" VerticalAlignment="Top" MouseDown="Label_MouseDown"/>
 
         </Grid>
