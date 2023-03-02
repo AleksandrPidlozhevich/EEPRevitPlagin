@@ -8,7 +8,7 @@
 WindowStyle="None"
         
         Background="Transparent"
-        ResizeMode="NoResize"   Width="690" Height="338" MouseDown="Window_MouseDown" MinWidth="792" MinHeight="447">
+        ResizeMode="CanResize"   Width="690" Height="338" MouseDown="Window_MouseDown" MinWidth="792" MinHeight="447">
 
     <Border Background="#272567" CornerRadius="0"  >
 
