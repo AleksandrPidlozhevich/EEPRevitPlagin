@@ -45,7 +45,6 @@ namespace EEPRevitPlagin
         {
             return Result.Succeeded;
         }
-        //123
         private void CreateRibbon(UIControlledApplication uiApp, string tabName)
         {
             RibbonPanel panelAR = uiApp.CreateRibbonPanel(tabName, "АР");
