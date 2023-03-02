@@ -306,5 +306,21 @@ namespace EEPRevitPlagin.EEPRPCommandModules.RevitServerExport
             string modelPath = @"C:\navis models\temp\a_2125_VARSHAVA_RD_AR.rvt";
             Document doc = ExportModels.OpenModel(modelPath, RevitServerExportCommand.uiapp.Application);
         }
+
+        private void Label_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            title.Text = "Revit Server - Выгузка Моделей";
+            serIP.Content = "Сервер IP";
+            revVer.Content = "Версия Revit";
+            proj.Content = "Проект";
+            navisView.Content= "Название вид Navis";
+            ifcView.Content = "Название вид IFC";
+            saveTo.Content = "Сохранить в:";
+            B1.Content = "подключиться к серверу";
+            B1_Copy.Content = "Добавить модели вручную";
+            exB.Content = "Выгрузка выбранных мдоелей";
+            exB1.Content = "Закрыть";
+            checkBox1.Content = "Объединить все nwc в один файл nwd";
+        }
     }
 }
