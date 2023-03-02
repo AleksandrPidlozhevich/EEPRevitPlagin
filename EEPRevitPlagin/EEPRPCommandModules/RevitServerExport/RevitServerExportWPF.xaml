@@ -8,7 +8,7 @@
 WindowStyle="None"
         
         Background="Transparent"
-        ResizeMode="NoResize"   Width="792" Height="447" MouseDown="Window_MouseDown">
+        ResizeMode="NoResize"   Width="690" Height="338" MouseDown="Window_MouseDown" MinWidth="792" MinHeight="447">
 
     <Border Background="#272567" CornerRadius="0"  >
 
@@ -22,7 +22,7 @@ WindowStyle="None"
                 </RowDefinition>
                 <RowDefinition Height="100">
                 </RowDefinition>
-                <RowDefinition Height="220">
+                <RowDefinition Height="*">
                 </RowDefinition>
                 <RowDefinition Height="70">
                 </RowDefinition>
