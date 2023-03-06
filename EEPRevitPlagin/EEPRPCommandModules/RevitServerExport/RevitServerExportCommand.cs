@@ -2,6 +2,7 @@
 using Autodesk.Revit.DB;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.UI.Events;
+using EEPRevitPlagin.EEPRPCommandModules.InstallationDoorWindowLintels;
 
 
 namespace EEPRevitPlagin.EEPRPCommandModules.RevitServerExport
@@ -21,7 +22,8 @@ namespace EEPRevitPlagin.EEPRPCommandModules.RevitServerExport
             //doc = uidoc.Document;
             //uiapp.DialogBoxShowing += UiAppOnDialogBoxShowing;
             RevitServerExportWPF exportWPF = new RevitServerExportWPF();
-            exportWPF.ShowDialog();
+            exportWPF.Topmost = true;
+            exportWPF.Show();
             return Result.Succeeded;
         }
         private static void UiAppOnDialogBoxShowing(object sender, DialogBoxShowingEventArgs args)

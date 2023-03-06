@@ -103,7 +103,8 @@ namespace EEPRevitPlagin.EEPRPCommandModules.InstallationDoorWindowLintels
 
             //Вызов формы
             LintelCreatorWPF lintelCreatorWPF = new LintelCreatorWPF(doc, lintelFamilysList, openingParameters);
-            lintelCreatorWPF.ShowDialog();
+            lintelCreatorWPF.Topmost = true;
+            lintelCreatorWPF.Show();
             if (lintelCreatorWPF.DialogResult != true)
             {
                 return Result.Cancelled;
@@ -168,6 +169,7 @@ namespace EEPRevitPlagin.EEPRPCommandModules.InstallationDoorWindowLintels
                 }
                 tg.Assimilate();
             }
+
             return Result.Succeeded;
         }
 

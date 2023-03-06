@@ -191,7 +191,7 @@
     <Compile Include="EEPRPCommandModules\FontChanging\FontChangingCommand.designer.cs">
       <DependentUpon>FontChangingCommand.cs</DependentUpon>
     </Compile>
-    <Compile Include="EEPRPCommandModules\IFCExport\IFCExportCommand.cs" />
+    <Compile Include="SecondaryСommand\IFCExport\IFCExportCommand.cs" />
     <Compile Include="EEPRPCommandModules\InstallationDoorWindowLintels\InstallationDoorWindowLintelsCommand.cs" />
     <Compile Include="EEPRPCommandModules\InstallationDoorWindowLintels\LintelCreatorSettings.cs" />
     <Compile Include="EEPRPCommandModules\InstallationDoorWindowLintels\LintelCreatorWPF.xaml.cs">
@@ -224,13 +224,13 @@
     <Content Include="EEPRPCommandModules\FontChanging\data\FontChangingCommand.txt" />
     <Content Include="EEPRPCommandModules\FontChanging\data\FontChangingCommand_large.png" />
     <Content Include="EEPRPCommandModules\FontChanging\data\FontChangingCommand_small.png" />
-    <Content Include="EEPRPCommandModules\IFCExport\data\IFCExportCommand.txt">
+    <Content Include="SecondaryСommand\IFCExport\data\IFCExportCommand.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPCommandModules\IFCExport\data\IFCExportCommand_large.png">
+    <Content Include="SecondaryСommand\IFCExport\data\IFCExportCommand_large.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EEPRPCommandModules\IFCExport\data\IFCExportCommand_small.png">
+    <Content Include="SecondaryСommand\IFCExport\data\IFCExportCommand_small.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="EEPRPCommandModules\InstallationDoorWindowLintels\data\InstallationDoorWindowLintelsCommand.txt">
