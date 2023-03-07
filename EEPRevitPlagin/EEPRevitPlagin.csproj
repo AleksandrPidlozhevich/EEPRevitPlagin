@@ -291,6 +291,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="EEPRPCommandModules\CuttingOpening\DataTransfer.cs" />
     <Compile Include="EEPRPCommandModules\FontChanging\FontChangingCommand.cs">
       <SubType>Form</SubType>
     </Compile>
