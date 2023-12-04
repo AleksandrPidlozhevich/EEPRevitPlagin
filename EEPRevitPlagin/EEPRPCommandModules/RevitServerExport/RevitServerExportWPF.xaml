@@ -1,0 +1,47 @@
+﻿<Window x:Class="EEPRevitPlagin.EEPRPCommandModules.RevitServerExport.RevitServerExportWPF"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EEPRevitPlagin.EEPRPCommandModules.RevitServerExport"
+             xmlns:re="clr-namespace:EEPRevitPlagin.SecondaryCommand.LangResources"
+             mc:Ignorable="d" WindowStyle="None" ResizeMode="CanResize"   Width="761" Height="435" MouseDown="Window_MouseDown" MinWidth="900" MinHeight="500" WindowStartupLocation="CenterScreen">
+
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50">
+            </RowDefinition>
+            <RowDefinition Height="150">
+            </RowDefinition>
+            <RowDefinition/>
+            <RowDefinition Height="70">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="title" Text="{x:Static re:Language.Revit_Server_Export_Models}" FontSize="20" FontFamily="Calibri" FontWeight="Black"  Margin="10" />
+        <Label x:Name="serIP" Content="{x:Static re:Language.Server_IP}"  HorizontalAlignment="Left" Margin="17,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="69" Height="26" />
+        <Label x:Name="revVer" Content="{x:Static re:Language.Revit_Version}" HorizontalAlignment="Left" Margin="17,49,0,0" Grid.Row="1" VerticalAlignment="Top" />
+        <TextBox x:Name="server" Text="10.99.50.152" HorizontalAlignment="Left" Margin="110,15,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <TextBox x:Name="revision" Text="2022"  HorizontalAlignment="Left" Margin="110,53,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <DataGrid x:Name="ModelTable" Grid.Row="2" Margin="15,0,15,0"  ItemsSource="{Binding}" SelectionMode="Single" />
+        <Button x:Name="exB1" Content="{x:Static re:Language.Exit}"   HorizontalAlignment="Left" Margin="674,45,0,0" Grid.Row="3" VerticalAlignment="Top" Width="83" Click="Button_Click" Background="#FFFF5050"/>
+        <Button x:Name="B1" Content="{x:Static re:Language.Сonnect_to_server}"   HorizontalAlignment="Left" Margin="320,9,0,0" Grid.Row="1" VerticalAlignment="Top" Width="175" Click="Button_Click_1" Height="28"/>
+        <Label x:Name="proj" Content="{x:Static re:Language.Project}" HorizontalAlignment="Left" Margin="17,90,0,0" Grid.Row="1" VerticalAlignment="Top"  Width="78"/>
+        <ComboBox x:Name="combo1"  HorizontalAlignment="Left" Margin="110,92,0,0" Grid.Row="1" VerticalAlignment="Top" Width="199" SelectionChanged="combo1_SelectionChanged"/>
+        <Button x:Name="exB"  Content="Export Selected Models"   HorizontalAlignment="Left" Margin="400,45,0,0" Grid.Row="3" VerticalAlignment="Top" Width="201" Click="Export_Button" BorderBrush="#FF707070" Background="#FF9CFF50"/>
+        <Label x:Name="saveTo" Content="{x:Static re:Language.Save_as}"  HorizontalAlignment="Left" Margin="17,12,0,0" Grid.Row="3" VerticalAlignment="Top" Width="88" Height="27" />
+        <TextBox x:Name="folderTB"   Text="C:\Navisworks models" HorizontalAlignment="Left" Margin="110,17,0,0" Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Top" Width="519" IsReadOnly="True"/>
+        <Label x:Name="navisView" Content="{x:Static re:Language.Navisworks_view_contains}"  HorizontalAlignment="Left" Margin="500,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="216" Height="27" />
+        <Label x:Name="ifcView" Content="{x:Static re:Language.IFC_view_contains}"  HorizontalAlignment="Left" Margin="500,49,0,0" Grid.Row="1" VerticalAlignment="Top" Width="216" Height="27" />
+        <TextBox x:Name="nwcTB"   Text="Navisworks" HorizontalAlignment="Left" Margin="737,15,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="ifcTB"   Text="Navisworks" HorizontalAlignment="Left" Margin="737,54,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+        <CheckBox x:Name="checkBox1" Content="{x:Static re:Language.Combine_all_nwc_to_one_nwd_file}"  HorizontalAlignment="Left" Margin="79,45,0,0" Grid.Row="3" VerticalAlignment="Top" Width="290"/>
+        <Button x:Name="B1_Copy" Content="{x:Static re:Language.Add_models_manually}" HorizontalAlignment="Left" Margin="320,48,0,0" Grid.Row="1" VerticalAlignment="Top" Width="175" Height="28" Click="B1_Copy_Click"/>
+        <Button x:Name="FolderB" Content="{x:Static re:Language.Choose_folder}" HorizontalAlignment="Left" Margin="634,16,0,0" Grid.Row="3" VerticalAlignment="Top" Width="123" Click="FolderB_Click"/>
+        <Label x:Name="fbxView" Content="The FBX view name contains"  HorizontalAlignment="Left" Margin="500,81,0,0" Grid.Row="1" VerticalAlignment="Top" Width="216" Height="27" />
+        <TextBox x:Name="fbxTB"   Text="Navisworks" HorizontalAlignment="Left" Margin="737,87,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextChanged="fbxTB_TextChanged"/>
+    </Grid>
+</Window>

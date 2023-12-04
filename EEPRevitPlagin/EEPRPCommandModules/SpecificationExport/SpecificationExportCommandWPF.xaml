@@ -1,0 +1,21 @@
+﻿<Window x:Class="EEPRevitPlagin.EEPRPCommandModules.SpecificationExport.SpecificationExportCommandWPF"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EEPRevitPlagin.EEPRPCommandModules.SpecificationExport"
+             xmlns:re="clr-namespace:EEPRevitPlagin.SecondaryCommand.LangResources"
+             mc:Ignorable="d" Width="450" Height="270"   WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Background="#FF284F39">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ComboBox Grid.Row="0" x:Name="specificationComboBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="350"/>
+        <TextBox x:Name="folderTB" Grid.Row="1" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="C:\" VerticalAlignment="Center" Width="249"  Margin="25,0,0,0"/>
+        <Button Grid.Row="1" x:Name="export" Content="Экспорт" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="30" Click="ExportButton_Click" Margin="25,87,0,0"/>
+        <Label Content="{x:Static re:Language.Save_as}" HorizontalAlignment="Left" Margin="25,10,0,0" Grid.Row="1" Width="78" Background="Transparent" Foreground="White" Height="23" VerticalAlignment="Top"/>
+        <Label Content="Выберете спецификацию/таблицу для экспорта" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="FolderB" Content="{x:Static re:Language.Choose_folder}" HorizontalAlignment="Left" Margin="310,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="130" Click="FolderB_Click" />
+    </Grid>
+</Window>

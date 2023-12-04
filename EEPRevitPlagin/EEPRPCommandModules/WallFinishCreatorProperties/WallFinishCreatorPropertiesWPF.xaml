@@ -1,0 +1,23 @@
+﻿<Window x:Class="EEPRevitPlagin.EEPRPCommandModules.WallFinishCreatorProperties.WallFinishCreatorPropertiesWPF"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EEPRevitPlagin.EEPRPCommandModules.WallFinishCreatorProperties"
+             xmlns:rs="clr-namespace:EEPRevitPlagin.SecondaryCommand.LangResources"
+             mc:Ignorable="d" 
+             Title="{x:Static rs:Language.Wall_finish_properties}" Height="160" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" FontFamily="Times New Roman" >
+    <Grid>
+        <GroupBox x:Name="groupBox_FloorCreationOption" BorderBrush="{x:Null}" Header="{x:Static rs:Language.Choose_an_option}" Margin="10,10,10,45">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200*"/>
+                    <ColumnDefinition Width="200*"/>
+                </Grid.ColumnDefinitions>
+                <RadioButton x:Name="rbt_ByCurrentFile" Content="{x:Static rs:Language.For_the_current_file}" Margin="10,10,0,10" IsChecked="True" HorizontalAlignment="Center" VerticalContentAlignment="Center" Padding="5,0,0,0" VerticalAlignment="Center"/>
+                <RadioButton x:Name="rbt_ByLinkedFile" Content="{x:Static rs:Language.By_linked_file}" Grid.Column="1" Margin="10,10,0,10" HorizontalAlignment="Center" VerticalContentAlignment="Center" Padding="5,0,0,0" VerticalAlignment="Center"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="btn_Ok" Content="{x:Static rs:Language.Apply}" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="100" Height="25" Click="btn_Ok_Click"/>
+    </Grid>
+</Window>

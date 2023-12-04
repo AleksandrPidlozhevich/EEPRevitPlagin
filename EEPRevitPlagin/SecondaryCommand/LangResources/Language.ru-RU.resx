@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Apply" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="Architectural_PanelName" xml:space="preserve">
+    <value>АР</value>
+  </data>
+  <data name="Family" xml:space="preserve">
+    <value>Семейства</value>
+  </data>
+  <data name="Font_Change" xml:space="preserve">
+    <value>Изменение шрифта</value>
+  </data>
+  <data name="Greeting" xml:space="preserve">
+    <value>Приветствие</value>
+  </data>
+  <data name="Lintels" xml:space="preserve">
+    <value>Перемычки</value>
+  </data>
+  <data name="MEP_PanelName" xml:space="preserve">
+    <value>ИОС</value>
+  </data>
+  <data name="Please_restart_Revit_for_the_changes_to_take_effect" xml:space="preserve">
+    <value>Пожалуйста, перезапустите Revit, чтобы изменения вступили в силу</value>
+  </data>
+  <data name="Select Language" xml:space="preserve">
+    <value>Выбрать язык:</value>
+  </data>
+  <data name="Structural_PanelName" xml:space="preserve">
+    <value>КР</value>
+  </data>
+  <data name="Сhoose a font" xml:space="preserve">
+    <value>Выберите шрифт</value>
+  </data>
+  <data name="Change plugin language" xml:space="preserve">
+    <value>Изменить язык плагина</value>
+  </data>
+  <data name="Finish_height" xml:space="preserve">
+    <value>Высота отделки</value>
+  </data>
+  <data name="Room_boundary" xml:space="preserve">
+    <value>Граница помещения</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Base_material" xml:space="preserve">
+    <value>Материал основы</value>
+  </data>
+  <data name="Finish_type" xml:space="preserve">
+    <value>Тип отделки</value>
+  </data>
+  <data name="Wall_finish_properties" xml:space="preserve">
+    <value>Свойства отделки стен</value>
+  </data>
+  <data name="Choose_an_option" xml:space="preserve">
+    <value>Выберите опцию:</value>
+  </data>
+  <data name="For_the_current_file" xml:space="preserve">
+    <value>По текущему файлу</value>
+  </data>
+  <data name="By_linked_file" xml:space="preserve">
+    <value>По связанному файлу</value>
+  </data>
+  <data name="CreateWallFinish" xml:space="preserve">
+    <value>Создание отделки</value>
+  </data>
+  <data name="Choose_room" xml:space="preserve">
+    <value>Выберите помещения!</value>
+  </data>
+  <data name="Building_walls" xml:space="preserve">
+    <value>Создание стен</value>
+  </data>
+  <data name="Merging_walls" xml:space="preserve">
+    <value>Объединение стен</value>
+  </data>
+  <data name="Sorry_сutting_openings_in_walls_through_the_API_appeared_only_in_the_2021_version" xml:space="preserve">
+    <value>Сожалею! Вырезание проемов в стенах через API появилось только в 2021 версии!</value>
+  </data>
+  <data name="Select_a_linked_file" xml:space="preserve">
+    <value>Выберите связанный файл!</value>
+  </data>
+  <data name="Linked_file_not_found" xml:space="preserve">
+    <value>Связанный файл не найден!</value>
+  </data>
+  <data name="Cutting_holes" xml:space="preserve">
+    <value>Вырезание проемов</value>
+  </data>
+  <data name="Something_wrong!WallFinishProperties" xml:space="preserve">
+    <value>Что-то пошло не так! Пожалуйста нажмите кнопку \"Свойства отделки стен\" и выберите опцию!"</value>
+  </data>
+  <data name="Server_IP" xml:space="preserve">
+    <value>IP Сервера</value>
+  </data>
+  <data name="Revit_Version" xml:space="preserve">
+    <value>Версия Revit</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="CheckModelChangesCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="ModelCompareCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="ListNumberingCommand_Url" xml:space="preserve">
+    <value>\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\About\Нумерация листов.pdf</value>
+  </data>
+  <data name="ScheduleRowCounterCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="ScheduleRowCounterCommand_Title" xml:space="preserve">
+    <value>Перенумератор</value>
+  </data>
+  <data name="FindOverrideViewElementsCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="FindOverrideViewElementsCommand_Tooltip" xml:space="preserve">
+    <value>Поиск элементов с переопределенной графикой</value>
+  </data>
+  <data name="RevitServerExportCommand_Url" xml:space="preserve">
+    <value>"\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\About\Выгрузка Моделей с сервера.pdf"</value>
+  </data>
+  <data name="RevitServerExportCommand_Tooltip" xml:space="preserve">
+    <value>Экспорт модели из Revit сервера</value>
+  </data>
+  <data name="RevitServerExportCommand_Title" xml:space="preserve">
+    <value>Revit Server\nЭкспорт</value>
+  </data>
+  <data name="LanguageChangeCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEPRevitPlagin</value>
+  </data>
+  <data name="LanguageChangeCommand_Tooltip" xml:space="preserve">
+    <value>Изменение языка\nплагина</value>
+  </data>
+  <data name="LanguageChangeCommand_Title" xml:space="preserve">
+    <value>Изменение языка\nплагина</value>
+  </data>
+  <data name="FontChangingCommand_Url" xml:space="preserve">
+    <value>"\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\About\FontChanging\FontChanging.pdf"</value>
+  </data>
+  <data name="FontChangingCommand_Tooltip" xml:space="preserve">
+    <value>Изменение шрифта в проекте и аннотациях.</value>
+  </data>
+  <data name="FontChangingCommand_Title" xml:space="preserve">
+    <value>Изменить\nшрифт</value>
+  </data>
+  <data name="DuctInsulationCheckCommand_Tooltip" xml:space="preserve">
+    <value>Проверка изоляции воздуховодов и фитингов</value>
+  </data>
+  <data name="DuctInsulationCheckCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="DuctInsulationCheckCommand_Title" xml:space="preserve">
+    <value>Проверка изоляции\nвоздуховодов</value>
+  </data>
+  <data name="WallFinishCreatorCommand_Url" xml:space="preserve">
+    <value>\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\About\WallFinishCreator\WallFinishCreator.pdf</value>
+  </data>
+  <data name="WallFinishCreatorCommand_Tooltip" xml:space="preserve">
+    <value>Создание отделки в виде стен по контуру помещений из связанного файла</value>
+  </data>
+  <data name="WallFinishCreatorCommand_Title" xml:space="preserve">
+    <value>Отделка стен</value>
+  </data>
+  <data name="WallFinishCreatorPropertiesCommand_Url" xml:space="preserve">
+    <value>\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\About\WallFinishCreator\WallFinishCreator.pdf</value>
+  </data>
+  <data name="WallFinishCreatorPropertiesCommand_Tooltip" xml:space="preserve">
+    <value>Выбор опции создания отделки по связанному файлу или по текущему файлу</value>
+  </data>
+  <data name="WallFinishCreatorPropertiesCommand_Title" xml:space="preserve">
+    <value>Свойства\nотделки стен</value>
+  </data>
+  <data name="InstallationDoorWindowLintelsCommand_Url" xml:space="preserve">
+    <value>\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\About\Размезение перемычек над окнами и дверьми.pdf</value>
+  </data>
+  <data name="InstallationDoorWindowLintelsCommand_Tooltip" xml:space="preserve">
+    <value>Размещение перемычек над окнами и дверями</value>
+  </data>
+  <data name="InstallationDoorWindowLintelsCommand_Title" xml:space="preserve">
+    <value>Размещение\nперемычек</value>
+  </data>
+  <data name="Revit_Server_Export_Models" xml:space="preserve">
+    <value>Revit Server - Выгузка Моделей</value>
+  </data>
+  <data name="Navisworks_view_contains" xml:space="preserve">
+    <value>Имя вид Navisworks содержит</value>
+  </data>
+  <data name="CheckModelChangesCommand_Title" xml:space="preserve">
+    <value>Проверить\nизменения\nв связанном файле</value>
+  </data>
+  <data name="CheckModelChangesCommand_Tooltip" xml:space="preserve">
+    <value>Проверить изменения в связанном файла</value>
+  </data>
+  <data name="AnalyzeSourceModelCommand_Tooltip" xml:space="preserve">
+    <value>Записать состояние модели</value>
+  </data>
+  <data name="AnalyzeSourceModelCommand_Title" xml:space="preserve">
+    <value>Записать состояние\nмодели</value>
+  </data>
+  <data name="ListNumberingCommand_Tooltip" xml:space="preserve">
+    <value>Перенумерация листов</value>
+  </data>
+  <data name="ListNumberingCommand_Title" xml:space="preserve">
+    <value>Перенумерация\nлистов</value>
+  </data>
+  <data name="ModelCompareCommand_Tooltip" xml:space="preserve">
+    <value>Проверка изменений в текущей модели</value>
+  </data>
+  <data name="IFC_view_contains" xml:space="preserve">
+    <value>Имя вид IFC содержит</value>
+  </data>
+  <data name="Save_as" xml:space="preserve">
+    <value>Сохранить как:</value>
+  </data>
+  <data name="Сonnect_to_server" xml:space="preserve">
+    <value>Подключится к серверу</value>
+  </data>
+  <data name="Export_selected_models" xml:space="preserve">
+    <value>Выгрузка выбранных мдоелей</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Add_models_manually" xml:space="preserve">
+    <value>Добавить модели вручную</value>
+  </data>
+  <data name="Combine_all_nwc_to_one_nwd_file" xml:space="preserve">
+    <value>Объединить все .nwc в один файл .nwd</value>
+  </data>
+  <data name="Choose_folder" xml:space="preserve">
+    <value>Путь сохранения</value>
+  </data>
+  <data name="FindOverrideViewElementsCommand_Title" xml:space="preserve">
+    <value>Переопред.\nграфика</value>
+  </data>
+  <data name="ScheduleRowCounterCommand_Tooltip" xml:space="preserve">
+    <value>Добавить номера строк в спецификации</value>
+  </data>
+  <data name="ModelCompareCommand_Title" xml:space="preserve">
+    <value>Сравнивать\nдве модели</value>
+  </data>
+  <data name="PropertiesCopyCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="PropertiesCopyCommand_Title" xml:space="preserve">
+    <value>Волшебная\nпалочка</value>
+  </data>
+  <data name="PropertiesCopyCommand_Tooltip" xml:space="preserve">
+    <value>Копирование параметров элемента</value>
+  </data>
+  <data name="Select_the_ite_from_which_to_copy_properties" xml:space="preserve">
+    <value>Выберите элемент, с которого нужно скопировать свойства</value>
+  </data>
+  <data name="AnalyzeSourceModelCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name=" Error_messages" xml:space="preserve">
+    <value>Что-то не получилось. Сохраняйте спокойствие и порядок!</value>
+  </data>
+  <data name="Property_copying" xml:space="preserve">
+    <value>Копирование свойств</value>
+  </data>
+  <data name="Selected_item_not_retrieved" xml:space="preserve">
+    <value>Не удалось получить выбранный элемент.</value>
+  </data>
+  <data name="Select_copy_properties_or_Esc" xml:space="preserve">
+    <value>Выберите элемент для копирования свойств или нажмите Esc для завершения.</value>
+  </data>
+  <data name="ChangeTypeCopyPropertisCommand_Title" xml:space="preserve">
+    <value>Метла\nведьмы</value>
+  </data>
+  <data name="ChangeTypeCopyPropertisCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="ChangeTypeCopyPropertisCommand_Tooltip" xml:space="preserve">
+    <value>Изменяет тип элемента и копирует все параметры</value>
+  </data>
+  <data name="RoomBoundaryLinesCommand_Title" xml:space="preserve">
+    <value>Длинна/nстены помещения</value>
+  </data>
+  <data name="RoomBoundaryLinesCommand_Tooltip" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="RoomBoundaryLinesCommand_Url" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="OffAnalyticsModelCommand_Url" xml:space="preserve">
+    <value>https://github.com</value>
+  </data>
+  <data name="OffAnalyticsModelCommand_Title" xml:space="preserve">
+    <value>Вык.\nаналитическую\nмодель</value>
+  </data>
+  <data name="OffAnalyticsModelCommand_Tooltip" xml:space="preserve">
+    <value>Выключить аналитическую модель</value>
+  </data>
+  <data name="OffAnalyticsModelGroupCommand_Title" xml:space="preserve">
+    <value>Выключить аналитику модель группы</value>
+  </data>
+  <data name="OffAnalyticsModelGroupCommand_Tooltip" xml:space="preserve">
+    <value>Выключить аналитику модель группы</value>
+  </data>
+  <data name="OffAnalyticsModelGroupCommand_Url" xml:space="preserve">
+    <value>https://github.com</value>
+  </data>
+  <data name="RevisionCloudsCommand_Title" xml:space="preserve">
+    <value>Заполнение\nоблаков ревизий</value>
+  </data>
+  <data name="RevisionCloudsCommand_Url" xml:space="preserve">
+    <value>https://github.com</value>
+  </data>
+  <data name="RevisionCloudsCommand_Tooltip" xml:space="preserve">
+    <value>Заполнение облаков ревизий</value>
+  </data>
+  <data name="SpecificationExportCommand_Title" xml:space="preserve">
+    <value>Экспорт полей\nспецификации</value>
+  </data>
+</root>

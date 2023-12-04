@@ -1,0 +1,40 @@
+﻿<Window x:Class="EEPRevitPlagin.EEPRPCommandModules.RevisionClouds.RevisionCloudsWPF"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EEPRevitPlagin.EEPRPCommandModules.RevisionClouds"
+             xmlns:re="clr-namespace:EEPRevitPlagin.SecondaryCommand.LangResources"
+             mc:Ignorable="d" Width="761" Height="435" MinWidth="900" MinHeight="500" ResizeMode="CanResize"  WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" >
+    <Grid Background="#FF284F39">
+        <ComboBox x:Name="comboBoxSets" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,303,0,0" Width="500" Height="40" FontSize="22"/>
+        <CheckBox x:Name="amountCloud"  Margin="20,90,0,0" VerticalAlignment="Top" Height="18" Foreground="White" HorizontalAlignment="Left" Width="20">
+            <CheckBox.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2" />
+            </CheckBox.LayoutTransform>
+        </CheckBox>
+        <TextBlock HorizontalAlignment="Center" TextAlignment="Center" Height="34" Margin="0,25,0,0" TextWrapping="Wrap" Text="Заполнение внесенных изменений в комплект " VerticalAlignment="Top" Width="880" Foreground="White" FontSize="24" RenderTransformOrigin="0.5,0.5"/>
+        <CheckBox x:Name="permissionChange"  Margin="20,131,0,0" VerticalAlignment="Top" Height="18" Foreground="White" HorizontalAlignment="Left" Width="20">
+            <CheckBox.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2" />
+            </CheckBox.LayoutTransform>
+        </CheckBox>
+        <CheckBox x:Name="workingDrawings"  Margin="20,172,0,0" VerticalAlignment="Top" Height="18" Foreground="White" HorizontalAlignment="Left" Width="20">
+            <CheckBox.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2" />
+            </CheckBox.LayoutTransform>
+        </CheckBox>
+        <CheckBox x:Name="titlePage"  Margin="20,213,0,0" VerticalAlignment="Top" Height="18" Foreground="White" HorizontalAlignment="Left" Width="20">
+            <CheckBox.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2" />
+            </CheckBox.LayoutTransform>
+        </CheckBox>
+        <TextBlock HorizontalAlignment="Left"  Height="34" Margin="60,91,0,0" TextWrapping="Wrap" Text="Заполнение количества облачков на листе (в штампе &quot;WE_Количество участков&quot;) " VerticalAlignment="Top" Width="830" Foreground="White" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+        <TextBlock HorizontalAlignment="Left"  Height="34" Margin="60,132,0,0" TextWrapping="Wrap" Text="Заполнение данных на листе &quot;Разрешение на внесение изменений&quot;"  VerticalAlignment="Top" Width="830" Foreground="White" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+        <TextBlock HorizontalAlignment="Left"  Height="34" Margin="60,173,0,0" TextWrapping="Wrap" Text="Заполненение данных в &quot;Ведомость рабочих чертежей основного комплекта&quot;" VerticalAlignment="Top" Width="830" Foreground="White" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+        <TextBlock HorizontalAlignment="Left"  Height="34" Margin="60,214,0,0" TextWrapping="Wrap" Text="Заполнение таблицы изм. на &quot;Титульном листе&quot;" VerticalAlignment="Top" Width="830" Foreground="White" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+        <TextBlock HorizontalAlignment="Left"  Height="34" Margin="20,264,0,0" TextWrapping="Wrap" Text="Выберете имя комплекта &quot;ADSK_Комплект чертежей&quot;" VerticalAlignment="Top" Width="870" Foreground="White" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="doButton" Content="Apply" HorizontalAlignment="Left" Margin="20,400,0,0" VerticalAlignment="Top" Height="39" Width="129" FontSize="20"/>
+        <Button x:Name="exButton" Content="Exit" HorizontalAlignment="Left" Margin="391,400,0,0" VerticalAlignment="Top" Height="39" Width="129" FontSize="20"/>
+    </Grid>
+</Window>

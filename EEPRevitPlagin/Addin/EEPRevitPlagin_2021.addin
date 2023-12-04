@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>EEP_Revit_Plagin</Name>
+    <Assembly>EEPPlagin\EEPRevitPlagin_2021.dll</Assembly>
+    <AddInId>771f188e-7ee4-4330-9b52-68677ce189c2</AddInId>
+    <FullClassName>EEPRevitPlagin.App</FullClassName>
+    <VendorId>Pidlozhevich</VendorId>
+    <VendorDescription>Pidlozhevich</VendorDescription>
+  </AddIn>
+</RevitAddIns>

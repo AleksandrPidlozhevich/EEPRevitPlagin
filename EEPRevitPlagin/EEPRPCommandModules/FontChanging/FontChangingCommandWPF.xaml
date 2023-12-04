@@ -1,0 +1,23 @@
+﻿<Window x:Class="EEPRevitPlagin.EEPRPCommandModules.FontChanging.LanguageChangeCommandWPF"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EEPRevitPlagin.EEPRPCommandModules.FontChanging"
+             xmlns:re="clr-namespace:EEPRevitPlagin.SecondaryCommand.LangResources"
+             mc:Ignorable="d" 
+             Title="{x:Static re:Language.Font_Change}"
+             WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" FontFamily="Times New Roman" Width="335" Height="135" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
+    <Grid VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="90"/>
+        </Grid.RowDefinitions>
+        <Label Content="Выбрать шрифт" HorizontalAlignment="Left" Margin="10,0,0,0" Width="220" Height="28" VerticalAlignment="Center"/>
+        <Button x:Name="doButton" Content="Apply" Margin="253,0,10,0" Click="Button_Click" FontFamily="Times New Roman" Height="20" VerticalAlignment="Top" Grid.Row="1" Width="70"/>
+        <ComboBox x:Name="comboBoxFonts" Margin="10,4,170,0" VerticalAlignment="Top" FontFamily="Times New Roman" Grid.Row="1" Width="155" Height="20"/>
+        <CheckBox x:Name="Bold" Content="Жирный" HorizontalAlignment="Left" Margin="10,29,0,0" Grid.Row="1" VerticalAlignment="Top" IsChecked="False"/>
+        <CheckBox x:Name="Italic" Content="Курсив" HorizontalAlignment="Left" Margin="10,49,0,26" Grid.Row="1"/>
+        <CheckBox x:Name="Underline" Content="Подчеркнутый" HorizontalAlignment="Left" Margin="10,69,0,6" Grid.Row="1" RenderTransformOrigin="0.486,-0.593"/>
+    </Grid>
+</Window>

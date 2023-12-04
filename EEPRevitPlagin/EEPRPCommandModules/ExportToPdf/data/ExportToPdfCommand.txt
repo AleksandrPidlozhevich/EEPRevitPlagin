@@ -1,0 +1,3 @@
+Export \nTo PDF
+Export sheets to Pdf
+"\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\Выгрузка Моделей с сервера.pdf"

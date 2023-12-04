@@ -1,0 +1,3 @@
+Разбивка\nстены
+Разбивка стены в по слоям
+https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin

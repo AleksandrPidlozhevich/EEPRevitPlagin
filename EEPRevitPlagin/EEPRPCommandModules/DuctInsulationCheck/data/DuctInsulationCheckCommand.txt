@@ -1,0 +1,3 @@
+Проверка изоляции\nвоздуховодов
+Проверка изоляции воздуховодов и фитингов
+https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin

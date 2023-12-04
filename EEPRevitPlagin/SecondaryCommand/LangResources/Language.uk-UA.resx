@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Apply" xml:space="preserve">
+    <value>Застосувати</value>
+  </data>
+  <data name="Сhoose a font" xml:space="preserve">
+    <value>Виберіть шрифт</value>
+  </data>
+  <data name="Architectural_PanelName" xml:space="preserve">
+    <value>АР</value>
+  </data>
+  <data name="Change plugin language" xml:space="preserve">
+    <value>Змінити мову плагіна</value>
+  </data>
+  <data name="Family" xml:space="preserve">
+    <value>Родини</value>
+  </data>
+  <data name="Font_Change" xml:space="preserve">
+    <value>Зміна шрифту</value>
+  </data>
+  <data name="Structural_PanelName" xml:space="preserve">
+    <value>КР</value>
+  </data>
+  <data name="Select Language" xml:space="preserve">
+    <value>Вибрати мову:</value>
+  </data>
+  <data name="Lintels" xml:space="preserve">
+    <value>Перемички</value>
+  </data>
+  <data name="MEP_PanelName" xml:space="preserve">
+    <value>ІОМ</value>
+  </data>
+  <data name="Please_restart_Revit_for_the_changes_to_take_effect" xml:space="preserve">
+    <value>Будь ласка, перезапустіть Revit, щоб зміни набули чинності</value>
+  </data>
+  <data name="Greeting" xml:space="preserve">
+    <value>Вітання</value>
+  </data>
+  <data name="Finish_height" xml:space="preserve">
+    <value>Висота оздоблення</value>
+  </data>
+  <data name="Room_boundary" xml:space="preserve">
+    <value>Кордон приміщення</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="Base_material" xml:space="preserve">
+    <value>Матеріал основи</value>
+  </data>
+  <data name="Finish_type" xml:space="preserve">
+    <value>Тип оздоблення</value>
+  </data>
+  <data name="Wall_finish_properties" xml:space="preserve">
+    <value>Властивості оздоблення стін</value>
+  </data>
+  <data name="Choose_an_option" xml:space="preserve">
+    <value>Виберіть опцію:</value>
+  </data>
+  <data name="For_the_current_file" xml:space="preserve">
+    <value>По поточному файлу</value>
+  </data>
+  <data name="By_linked_file" xml:space="preserve">
+    <value>По зв'язаному файлу</value>
+  </data>
+  <data name="CreateWallFinish" xml:space="preserve">
+    <value>Створення оздоблення</value>
+  </data>
+  <data name="Choose_room" xml:space="preserve">
+    <value>Виберіть приміщення!</value>
+  </data>
+  <data name="Building_walls" xml:space="preserve">
+    <value>Створення стін</value>
+  </data>
+  <data name="Merging_walls" xml:space="preserve">
+    <value>Об'єднання стін</value>
+  </data>
+  <data name="Sorry_сutting_openings_in_walls_through_the_API_appeared_only_in_the_2021_version" xml:space="preserve">
+    <value>Жаль! Вирізання отворів у стінах через API з'явилося лише у 2021 році!</value>
+  </data>
+  <data name="Select_a_linked_file" xml:space="preserve">
+    <value>Виберіть зв'язаний файл!</value>
+  </data>
+  <data name="Linked_file_not_found" xml:space="preserve">
+    <value>Зв'язаний файл не знайдено!</value>
+  </data>
+  <data name="Cutting_holes" xml:space="preserve">
+    <value>Вирізання отворів</value>
+  </data>
+  <data name="Something_wrong!WallFinishProperties" xml:space="preserve">
+    <value>Щось пішло не так! Будь ласка, натисніть кнопку \"Властивості оздоблення стін\" та виберіть опцію!"</value>
+  </data>
+  <data name="ModelCompareCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="ListNumberingCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="ScheduleRowCounterCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="ScheduleRowCounterCommand_Title" xml:space="preserve">
+    <value>Перевпорядкування</value>
+  </data>
+  <data name="FindOverrideViewElementsCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="RevitServerExportCommand_Url" xml:space="preserve">
+    <value>"\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\About\Выгрузка Моделей с сервера.pdf"</value>
+  </data>
+  <data name="RevitServerExportCommand_Tooltip" xml:space="preserve">
+    <value>Експорт моделі з сервера Revit</value>
+  </data>
+  <data name="RevitServerExportCommand_Title" xml:space="preserve">
+    <value>Revit Server\nЕкспорт</value>
+  </data>
+  <data name="LanguageChangeCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEPRevitPlagin</value>
+  </data>
+  <data name="LanguageChangeCommand_Tooltip" xml:space="preserve">
+    <value>Зміна мови\nплагіна</value>
+  </data>
+  <data name="LanguageChangeCommand_Title" xml:space="preserve">
+    <value>Зміна мови\nплагіна</value>
+  </data>
+  <data name="FontChangingCommand_Url" xml:space="preserve">
+    <value>"\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\About\FontChanging\FontChanging.pdf"</value>
+  </data>
+  <data name="FontChangingCommand_Tooltip" xml:space="preserve">
+    <value>Зміна шрифту у проекті та анотаціях.</value>
+  </data>
+  <data name="FontChangingCommand_Title" xml:space="preserve">
+    <value>Зміна\nшрифту</value>
+  </data>
+  <data name="DuctInsulationCheckCommand_Tooltip" xml:space="preserve">
+    <value>Перевірка ізоляції повітроводів та фітингів</value>
+  </data>
+  <data name="DuctInsulationCheckCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="DuctInsulationCheckCommand_Title" xml:space="preserve">
+    <value>Перевірка ізоляції\nповітропроводів</value>
+  </data>
+  <data name="WallFinishCreatorCommand_Url" xml:space="preserve">
+    <value>\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\About\WallFinishCreator\WallFinishCreator.pdf</value>
+  </data>
+  <data name="WallFinishCreatorCommand_Tooltip" xml:space="preserve">
+    <value>Створення оздоблення у вигляді стін по контуру приміщень із з'язаного файлу</value>
+  </data>
+  <data name="WallFinishCreatorCommand_Title" xml:space="preserve">
+    <value>Оздоблення стін</value>
+  </data>
+  <data name="WallFinishCreatorPropertiesCommand_Url" xml:space="preserve">
+    <value>\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\About\WallFinishCreator\WallFinishCreator.pdf</value>
+  </data>
+  <data name="WallFinishCreatorPropertiesCommand_Tooltip" xml:space="preserve">
+    <value>Вибір варіанту створення обробки з пов'язаного файлу або з поточного файлу</value>
+  </data>
+  <data name="WallFinishCreatorPropertiesCommand_Title" xml:space="preserve">
+    <value>Властивості\оздоблення стін</value>
+  </data>
+  <data name="InstallationDoorWindowLintelsCommand_Url" xml:space="preserve">
+    <value>\\The-dc\00.0 инициатива инжпроект\20 БИБЛИОТЕКА\BIM_Библиотека\Revit\Плагины\EEP\About\Размезение перемычек над окнами и дверьми.pdf</value>
+  </data>
+  <data name="InstallationDoorWindowLintelsCommand_Tooltip" xml:space="preserve">
+    <value>Розміщення перемичок над вікнами та дверима</value>
+  </data>
+  <data name="InstallationDoorWindowLintelsCommand_Title" xml:space="preserve">
+    <value>Розміщення\nперемичок</value>
+  </data>
+  <data name="AnalyzeSourceModelCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="CheckModelChangesCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="PropertiesCopyCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="OffAnalyticsModelCommand_Url" xml:space="preserve">
+    <value>https://github.com</value>
+  </data>
+  <data name="OffAnalyticsModelCommand_Title" xml:space="preserve">
+    <value>Вимк.\nаналітичну модель</value>
+  </data>
+  <data name="OffAnalyticsModelCommand_Tooltip" xml:space="preserve">
+    <value>Вимкнути аналітичну модель</value>
+  </data>
+  <data name="OffAnalyticsModelGroupCommand_Url" xml:space="preserve">
+    <value>https://github.com</value>
+  </data>
+  <data name="RevisionCloudsCommand_Title" xml:space="preserve">
+    <value>Заповнення\nхмар ревізій</value>
+  </data>
+  <data name="RevisionCloudsCommand_Url" xml:space="preserve">
+    <value>https://github.com</value>
+  </data>
+  <data name="Choose_folder" xml:space="preserve">
+    <value>Шлях збереження</value>
+  </data>
+  <data name="ChangeTypeCopyPropertisCommand_Title" xml:space="preserve">
+    <value>Мітла\nвідьми</value>
+  </data>
+  <data name="SpecificationExportCommand_Title" xml:space="preserve">
+    <value>Експорт полів\nспецифікації</value>
+  </data>
+</root>
