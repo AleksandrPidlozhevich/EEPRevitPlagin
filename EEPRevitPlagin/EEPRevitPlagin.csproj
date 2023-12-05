@@ -79,6 +79,7 @@
   <ItemGroup>
     <Reference Include="Autodesk.Navisworks.Api">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Navisworks Manage 2022\Autodesk.Navisworks.Api.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="DnsClient, Version=1.7.0.0, Culture=neutral, PublicKeyToken=4574bb5573c51424, processorArchitecture=MSIL">
       <HintPath>..\packages\DnsClient.1.7.0\lib\net471\DnsClient.dll</HintPath>
