@@ -24,7 +24,7 @@ namespace EEPRevitPlagin
         {
             assemblyPath = typeof(App).Assembly.Location;
             assemblyFolder = Path.GetDirectoryName(assemblyPath);
-            application.ControlledApplication.DocumentOpened += OnDocumentOpened;
+            //application.ControlledApplication.DocumentOpened += OnDocumentOpened;
             //Read from config.json which language to use
             string path = Path.Combine(assemblyFolder, "SecondaryCommand", "LangResources", "config.json");
             if (File.Exists(path))
@@ -147,17 +147,17 @@ namespace EEPRevitPlagin
             }
             return data;
         }
-        private void OnDocumentOpened(object sender, DocumentOpenedEventArgs e)
-        {
-            // Получите Application из Document
-            Document doc = e.Document;
-            Autodesk.Revit.ApplicationServices.Application revitApp = doc.Application;
+        //private void OnDocumentOpened(object sender, DocumentOpenedEventArgs e)
+        //{
+        //    // Получите Application из Document
+        //    Document doc = e.Document;
+        //    Autodesk.Revit.ApplicationServices.Application revitApp = doc.Application;
 
-            // Создайте экземпляр SpecificationCheckerHandler и выполните мониторинг
-            UIApplication uiApp = new UIApplication(revitApp);
-            SpecificationCheckerHandler handler = new SpecificationCheckerHandler();
-            handler.StartMonitoring(uiApp);
-        }
+        //    // Создайте экземпляр SpecificationCheckerHandler и выполните мониторинг
+        //    UIApplication uiApp = new UIApplication(revitApp);
+        //    SpecificationCheckerHandler handler = new SpecificationCheckerHandler();
+        //    handler.StartMonitoring(uiApp);
+        //}
     }
     public class Availability : IExternalCommandAvailability
     {
