@@ -331,6 +331,33 @@ namespace EEPRevitPlagin.SecondaryCommand.LangResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to FamilyDWG.
+        /// </summary>
+        public static string FamilyDWGCommand_Title {
+            get {
+                return ResourceManager.GetString("FamilyDWGCommand_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FamilyDWG.
+        /// </summary>
+        public static string FamilyDWGCommand_Tooltip {
+            get {
+                return ResourceManager.GetString("FamilyDWGCommand_Tooltip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://github.com.
+        /// </summary>
+        public static string FamilyDWGCommand_Url {
+            get {
+                return ResourceManager.GetString("FamilyDWGCommand_Url", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Override Graphics\nElements Find.
         /// </summary>
         public static string FindOverrideViewElementsCommand_Title {

@@ -328,6 +328,7 @@
     <Compile Include="EEPRPCommandModules\ExportToPdf\ExportToPdfWPF.xaml.cs">
       <DependentUpon>ExportToPdfWPF.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EEPRPCommandModules\FamilyDWG\FamilyDWGCommand.cs" />
     <Compile Include="EEPRPCommandModules\FindOverrideViewElements\FindOverrideViewElementsCommand.cs" />
     <Compile Include="EEPRPCommandModules\FontChanging\FontChangingCommand.cs" />
     <Compile Include="EEPRPCommandModules\FontChanging\FontChangingCommandWPF.xaml.cs">
@@ -392,7 +393,6 @@
     <Compile Include="EEPRPCommandModules\WallFinishCreator\WallFinishCreatorWPF.xaml.cs">
       <DependentUpon>WallFinishCreatorWPF.xaml</DependentUpon>
     </Compile>
-    <Compile Include="EEPRPCommandModules\CountRevision\CountRevisionCommand.cs" />
     <Compile Include="InstallerEEP.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -465,6 +465,13 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="EEPRPCommandModules\ExportToPdf\data\ExportToPdfCommand.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EEPRPCommandModules\FamilyDWG\data\FamilyDWGCommand.png" />
+    <Content Include="EEPRPCommandModules\FamilyDWG\data\FamilyDWGCommand_large.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EEPRPCommandModules\FamilyDWG\data\FamilyDWGCommand_small.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="EEPRPCommandModules\FindOverrideViewElements\data\FindOverrideViewElementsCommand.txt">

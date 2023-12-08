@@ -451,4 +451,13 @@
   <data name="SpecificationExportCommand_Url" xml:space="preserve">
     <value>https://github.com</value>
   </data>
+  <data name="FamilyDWGCommand_Title" xml:space="preserve">
+    <value>FamilyDWG</value>
+  </data>
+  <data name="FamilyDWGCommand_Tooltip" xml:space="preserve">
+    <value>FamilyDWG</value>
+  </data>
+  <data name="FamilyDWGCommand_Url" xml:space="preserve">
+    <value>https://github.com</value>
+  </data>
 </root>

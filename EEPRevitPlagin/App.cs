@@ -102,6 +102,7 @@ namespace EEPRevitPlagin
             panelBIM.AddSeparator();
             panelBIM.AddItem(CreateButtonData("RevisionClouds", "RevisionCloudsCommand", false));
             panelBIM.AddItem(CreateButtonData("SpecificationExport", "SpecificationExportCommand", false));
+            panelBIM.AddItem(CreateButtonData("FamilyDWG", "FamilyDWGCommand", false));
             #region splitButtonPropertiesCopy
             SplitButtonData splitButtonOffAnalytics = new SplitButtonData("OffAnalytics", "OffAnalytics");
             RibbonItem ribbonItemOffAnalytics = panelBIM.AddItem(splitButtonOffAnalytics);
