@@ -1,83 +1,108 @@
 ﻿using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
+using EEPRevitPlagin.EEPRPCommandModules.FontChanging;
 using System;
+using static EEPRevitPlagin.EEPRPCommandModules.FontChanging.FontChangingCommand;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EEPRevitPlagin.EEPRPCommandModules.FamilyDWG
 {
     [Autodesk.Revit.Attributes.Transaction(Autodesk.Revit.Attributes.TransactionMode.Manual)]
     internal class FamilyDWGCommand : IExternalCommand
     {
-        public Result Execute(
-            ExternalCommandData commandData,
-            ref string message,
-            ElementSet elements)
+        public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             try
             {
-                // Получаем доступ к текущему документу
-                UIDocument uidoc = commandData.Application.ActiveUIDocument;
-                Document doc = uidoc.Document;
+                // Access the active document from the ExternalCommandData
+                Document doc = commandData.Application.ActiveUIDocument.Document;
 
-                // Создаем фильтр для поиска семейств
-                ElementClassFilter familyFilter = new ElementClassFilter(typeof(Family));
+                // Call your ChangingFamilyMethod with appropriate parameters
+                ChangingFamilyMethod(null, doc);
 
-                // Перебираем все семейства в документе
-                FilteredElementCollector collector = new FilteredElementCollector(doc);
-                ICollection<Element> families = collector.WherePasses(familyFilter).ToElements();
-
-                List<string> resultFamilyNames = new List<string>();
-
-                using (Transaction transaction = new Transaction(doc))
-                {
-                    transaction.Start("Process Families");
-
-                    foreach (Element family in families)
-                    {
-                        // Проверяем условие: GetDependentElements -> ImportInstance -> GetTypeId -> CADLinkType
-                        List<ElementId> dependentElements = new List<ElementId>();
-                        if (family is Family)
-                        {
-                            dependentElements = ((Family)family).GetDependentElements(null).ToList();
-                        }
-
-                        foreach (ElementId dependentElementId in dependentElements)
-                        {
-                            Element dependentElement = doc.GetElement(dependentElementId);
-
-                            if (dependentElement is ImportInstance)
-                            {
-                                ElementId typeId = dependentElement.GetTypeId();
-                                Element typeElement = doc.GetElement(typeId);
-
-                                if (typeElement is CADLinkType)
-                                {
-                                    // Получаем имя семейства и добавляем его в список
-                                    string familyName = typeElement.Name;
-                                    resultFamilyNames.Add(familyName);
-                                }
-                            }
-                        }
-                    }
-
-                    transaction.Commit();
-                }
-
-                // Сохраняем результат в текстовый файл
-                string filePath = "C:\\Users\\a.n.pidlozhevich\\Downloads\\ResultFile.txt";
-                File.WriteAllLines(filePath, resultFamilyNames);
-
-                TaskDialog.Show("Success", "Plugin execution completed successfully.");
                 return Result.Succeeded;
             }
             catch (Exception ex)
             {
                 message = ex.Message;
                 return Result.Failed;
+            }
+        }
+        public void ChangingFamilyMethod(StyleTextDictionary[] styles, Document doc)
+        {
+            ICollection<Element> families =
+                new FilteredElementCollector(doc)
+                    .OfClass(typeof(FamilySymbol))
+                    .WhereElementIsElementType()
+                    .ToElements();
+
+            List<string> filteredElements = new List<string>();
+
+            foreach (Element e in families)
+            {
+                Category category = e.Category;
+
+                // Проверка категории Generic Models и Doors
+                if (category != null && (category.Id.IntegerValue == (int)BuiltInCategory.OST_GenericModel || category.Id.IntegerValue == (int)BuiltInCategory.OST_Doors))
+                {
+                    ElementType ele = e as ElementType;
+                    string familyName = ele.FamilyName;
+
+                    // Фильтрация повторяющихся типов
+                    if (!filteredElements.Contains(familyName))
+                    {
+                        filteredElements.Add(familyName);
+
+                        FamilySymbol fs = e as FamilySymbol;
+                        Family f = fs.Family;
+                        Document editFamily = doc.EditFamily(f);
+
+                        // Поиск ImportInstance в семействе
+                        FilteredElementCollector importInstancesCollector = new FilteredElementCollector(editFamily)
+                            .OfClass(typeof(ImportInstance));
+
+                        // Обработка найденных ImportInstance
+                        foreach (Element importInstance in importInstancesCollector)
+                        {
+                            WriteFamilyNameToFile(familyName);
+                        }
+                        editFamily.Close(false);
+                    }
+                }
+            }
+        }
+
+
+        private void WriteFamilyNameToFile(string familyName)
+        {
+            try
+            {
+                using (StreamWriter writer = new StreamWriter("C:\\Users\\user\\Desktop\\ResultFile.txt", true))
+                {
+                    writer.WriteLine(familyName);
+                    writer.Flush(); // Гарантирует запись данных на диск
+                }
+            }
+            catch (Exception ex)
+            {
+                LogError("Error writing to ResultFile.txt: " + ex.Message);
+            }
+        }
+
+        private void LogError(string message)
+        {
+            try
+            {
+                using (StreamWriter writer = new StreamWriter("C:\\Users\\user\\Desktop\\Log.txt", true))
+                {
+                    writer.WriteLine(DateTime.Now.ToString() + ": " + message);
+                }
+            }
+            catch (Exception)
+            {
+                // Handle any exceptions that might occur while writing to the log file.
             }
         }
     }
