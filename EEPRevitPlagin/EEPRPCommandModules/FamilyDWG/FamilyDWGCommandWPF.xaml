@@ -1,0 +1,17 @@
+﻿<Window  x:Class="EEPRevitPlagin.EEPRPCommandModules.FamilyDWG.FamilyDWGCommandWPF"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EEPRevitPlagin.EEPRPCommandModules.FamilyDWG"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="300">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="Select the location to save the file:" FontWeight="Bold" />
+            <TextBox x:Name="FilePathTextBox" Margin="0,10,0,10" />
+            <Button Content="Browse" Click="BrowseButton_Click" />
+            <Button Content="Save" Click="SaveButton_Click" />
+        </StackPanel>
+    </Grid>
+    </Window>

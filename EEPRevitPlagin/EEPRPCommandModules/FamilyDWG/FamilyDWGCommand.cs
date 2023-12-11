@@ -2,10 +2,8 @@
 using Autodesk.Revit.UI;
 using EEPRevitPlagin.EEPRPCommandModules.FontChanging;
 using System;
-using static EEPRevitPlagin.EEPRPCommandModules.FontChanging.FontChangingCommand;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
 namespace EEPRevitPlagin.EEPRPCommandModules.FamilyDWG
 {
@@ -18,9 +16,17 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FamilyDWG
             {
                 // Access the active document from the ExternalCommandData
                 Document doc = commandData.Application.ActiveUIDocument.Document;
+                FamilyDWGCommandWPF wpfWindow = new FamilyDWGCommandWPF();
 
-                // Call your ChangingFamilyMethod with appropriate parameters
-                ChangingFamilyMethod(null, doc);
+                // Отобразите WPF-окно и дождитесь его закрытия
+                bool? result = wpfWindow.ShowDialog();
+
+                // Проверьте, была ли нажата кнопка "Save" в WPF-окне
+                if (result == true)
+                {
+                    // Вызовите ваш метод ChangingFamilyMethod с передачей FilePath
+                    ChangingFamilyMethod(null, doc, wpfWindow.FilePath);
+                }
 
                 return Result.Succeeded;
             }
@@ -30,7 +36,7 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FamilyDWG
                 return Result.Failed;
             }
         }
-        public void ChangingFamilyMethod(StyleTextDictionary[] styles, Document doc)
+        public void ChangingFamilyMethod(StyleTextDictionary[] styles, Document doc, string filePath)
         {
             ICollection<Element> families =
                 new FilteredElementCollector(doc)
@@ -66,7 +72,7 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FamilyDWG
                         // Обработка найденных ImportInstance
                         foreach (Element importInstance in importInstancesCollector)
                         {
-                            WriteFamilyNameToFile(familyName);
+                            WriteFamilyNameToFile(filePath, familyName);
                         }
                         editFamily.Close(false);
                     }
@@ -75,34 +81,13 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FamilyDWG
         }
 
 
-        private void WriteFamilyNameToFile(string familyName)
+        private void WriteFamilyNameToFile(string filePath, string familyName)
         {
-            try
+            // Вместо жестко закодированного пути используйте переданный filePath
+            using (StreamWriter writer = new StreamWriter(filePath, true))
             {
-                using (StreamWriter writer = new StreamWriter("C:\\Users\\user\\Desktop\\ResultFile.txt", true))
-                {
-                    writer.WriteLine(familyName);
-                    writer.Flush(); // Гарантирует запись данных на диск
-                }
-            }
-            catch (Exception ex)
-            {
-                LogError("Error writing to ResultFile.txt: " + ex.Message);
-            }
-        }
-
-        private void LogError(string message)
-        {
-            try
-            {
-                using (StreamWriter writer = new StreamWriter("C:\\Users\\user\\Desktop\\Log.txt", true))
-                {
-                    writer.WriteLine(DateTime.Now.ToString() + ": " + message);
-                }
-            }
-            catch (Exception)
-            {
-                // Handle any exceptions that might occur while writing to the log file.
+                writer.WriteLine(familyName);
+                writer.Flush(); // Гарантирует запись данных на диск
             }
         }
     }

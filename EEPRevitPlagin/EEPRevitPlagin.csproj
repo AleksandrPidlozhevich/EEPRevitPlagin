@@ -329,6 +329,9 @@
       <DependentUpon>ExportToPdfWPF.xaml</DependentUpon>
     </Compile>
     <Compile Include="EEPRPCommandModules\FamilyDWG\FamilyDWGCommand.cs" />
+    <Compile Include="EEPRPCommandModules\FamilyDWG\FamilyDWGCommandWPF.xaml.cs">
+      <DependentUpon>FamilyDWGCommandWPF.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EEPRPCommandModules\FindOverrideViewElements\FindOverrideViewElementsCommand.cs" />
     <Compile Include="EEPRPCommandModules\FontChanging\FontChangingCommand.cs" />
     <Compile Include="EEPRPCommandModules\FontChanging\FontChangingCommandWPF.xaml.cs">
@@ -647,6 +650,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EEPRPCommandModules\ExportToPdf\ExportToPdfWPF.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EEPRPCommandModules\FamilyDWG\FamilyDWGCommandWPF.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
