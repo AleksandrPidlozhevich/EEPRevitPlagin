@@ -18,8 +18,7 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FontChanging
         {
             InitializeComponent();
             Doc = doc;
-
-            //Получение списка доступных шрифтов
+ 
             InstalledFontCollection installedFontCollection = new InstalledFontCollection();
             FontFamily[] fontFamilies = installedFontCollection.Families;
 
@@ -44,7 +43,7 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FontChanging
 
             StyleTextDictionary[] styles = { boldStyle, italicStyle, underlineStyle };
 
-            FontChangingCommand textNote = new FontChangingCommand(); // создание экземпляра класса
+            FontChangingCommand textNote = new FontChangingCommand();
             textNote.TextNoteMethod(styles, Doc, choiceFont);
             FontChangingCommand textElement = new FontChangingCommand();
             textElement.TextElementTypeMethod(styles, Doc, choiceFont);
@@ -53,6 +52,11 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FontChanging
             FontChangingCommand changingFamily = new FontChangingCommand();
             changingFamily.ChangingFamilyMethod(styles, Doc, choiceFont);
             MessageBox.Show("Operation completed");
+        }
+
+        private void Italic_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 

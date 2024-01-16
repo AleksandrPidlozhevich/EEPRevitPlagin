@@ -16,7 +16,6 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FontChanging
             UIApplication uiApp = commandData.Application;
             Document doc = uiApp.ActiveUIDocument.Document;
 
-            // Запуск команды
             try
             {
                 LanguageChangeCommandWPF window = new LanguageChangeCommandWPF(doc);
@@ -46,9 +45,9 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FontChanging
                 StyleTextMethod(styles, textType);
 
                 tran.Commit();
-            }//end using
+            }
         }
-        public void TextElementTypeMethod(StyleTextDictionary[] styles, Document doc, string choiceFont) //Изменение типов марок в документе
+        public void TextElementTypeMethod(StyleTextDictionary[] styles, Document doc, string choiceFont)
         {
             using (Transaction tran = new Transaction(doc, "Changing TextElementType"))
             {
@@ -86,7 +85,7 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FontChanging
                 tran.Commit();
             }
         }
-        public void ChangingFamilyMethod(StyleTextDictionary[] styles, Document doc, string choiceFont) //Изменение семейств аннотаций
+        public void ChangingFamilyMethod(StyleTextDictionary[] styles, Document doc, string choiceFont)
         {
             ICollection<Element> families =
                 new FilteredElementCollector(doc).OfClass(typeof(FamilySymbol)).WhereElementIsElementType().ToElements();
@@ -99,8 +98,6 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FontChanging
                 {
                     ElementType ele = e as ElementType;
                     string familyName = ele.FamilyName;
-
-                    // фильтрация повторяющихся типов
                     if (!filteredElements.Contains(familyName))
                     {
                         filteredElements.Add(familyName);
@@ -110,7 +107,6 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FontChanging
                         Document editFamily = doc.EditFamily(f);
                         doc.EditFamily((e as FamilySymbol).Family);
 
-                        //Запуск изменения вложенных семейств
                         ICollection<Element> elementTextType = new FilteredElementCollector(editFamily).OfClass(typeof(TextNoteType)).ToElements();
                         if (elementTextType.Count > 0) ChangingFamilyMethod(styles, editFamily, choiceFont);
 
@@ -133,7 +129,7 @@ namespace EEPRevitPlagin.EEPRPCommandModules.FontChanging
                 }
             }
         }
-        public class FamilyOptions : IFamilyLoadOptions //реализация интерфейса автоматической загрузки семейства
+        public class FamilyOptions : IFamilyLoadOptions 
         {
             public bool OnFamilyFound(bool familyInUse, out bool overwriteParameterValues)
             {

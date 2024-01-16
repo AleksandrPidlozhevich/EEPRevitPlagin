@@ -13,11 +13,11 @@
             <RowDefinition Height="30"/>
             <RowDefinition Height="90"/>
         </Grid.RowDefinitions>
-        <Label Content="Выбрать шрифт" HorizontalAlignment="Left" Margin="10,0,0,0" Width="220" Height="28" VerticalAlignment="Center"/>
+        <Label Content="Choose a font" HorizontalAlignment="Left" Margin="10,0,0,0" Width="220" Height="28" VerticalAlignment="Center"/>
         <Button x:Name="doButton" Content="Apply" Margin="253,0,10,0" Click="Button_Click" FontFamily="Times New Roman" Height="20" VerticalAlignment="Top" Grid.Row="1" Width="70"/>
         <ComboBox x:Name="comboBoxFonts" Margin="10,4,170,0" VerticalAlignment="Top" FontFamily="Times New Roman" Grid.Row="1" Width="155" Height="20"/>
-        <CheckBox x:Name="Bold" Content="Жирный" HorizontalAlignment="Left" Margin="10,29,0,0" Grid.Row="1" VerticalAlignment="Top" IsChecked="False"/>
-        <CheckBox x:Name="Italic" Content="Курсив" HorizontalAlignment="Left" Margin="10,49,0,26" Grid.Row="1"/>
-        <CheckBox x:Name="Underline" Content="Подчеркнутый" HorizontalAlignment="Left" Margin="10,69,0,6" Grid.Row="1" RenderTransformOrigin="0.486,-0.593"/>
+        <CheckBox x:Name="Bold" Content="Bold font" HorizontalAlignment="Left" Margin="10,29,0,0" Grid.Row="1" VerticalAlignment="Top" IsChecked="False"/>
+        <CheckBox x:Name="Italic" Content="Italic font" HorizontalAlignment="Left" Margin="10,49,0,26" Grid.Row="1" Checked="Italic_Checked"/>
+        <CheckBox x:Name="Underline" Content="Underline font" HorizontalAlignment="Left" Margin="10,69,0,6" Grid.Row="1" RenderTransformOrigin="0.486,-0.593"/>
     </Grid>
 </Window>
