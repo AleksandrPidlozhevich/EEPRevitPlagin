@@ -406,4 +406,37 @@
   <data name="SpecificationExportCommand_Title" xml:space="preserve">
     <value>Export specification\nfields</value>
   </data>
+  <data name="SpecificationExportCommand_Tooltip" xml:space="preserve">
+    <value>SpecificationExport</value>
+  </data>
+  <data name="SpecificationExportCommand_Url" xml:space="preserve">
+    <value>https://github.com</value>
+  </data>
+  <data name="FamilyDWGCommand_Title" xml:space="preserve">
+    <value>FamilyDWG</value>
+  </data>
+  <data name="FamilyDWGCommand_Tooltip" xml:space="preserve">
+    <value>FamilyDWG</value>
+  </data>
+  <data name="FamilyDWGCommand_Url" xml:space="preserve">
+    <value>https://github.com</value>
+  </data>
+  <data name="ReHostHolesCommand_Title" xml:space="preserve">
+    <value>Rehost</value>
+  </data>
+  <data name="ReHostHolesCommand_Tooltip" xml:space="preserve">
+    <value>Rehost</value>
+  </data>
+  <data name="ReHostHolesCommand_Url" xml:space="preserve">
+    <value>https://github.com</value>
+  </data>
+  <data name="OffAnalyticsModelGroupCommand_Title" xml:space="preserve">
+    <value>Turn off model analytics group</value>
+  </data>
+  <data name="OffAnalyticsModelGroupCommand_Tooltip" xml:space="preserve">
+    <value>Turn off model analytics group</value>
+  </data>
+  <data name="RevisionCloudsCommand_Tooltip" xml:space="preserve">
+    <value>Filling in revisions сlouds</value>
+  </data>
 </root>

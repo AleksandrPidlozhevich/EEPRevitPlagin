@@ -13,7 +13,6 @@ namespace EEPRevitPlagin.EEPRPCommandModules.LanguageChange
             {
                 UIApplication uiApp = commandData.Application;
 
-                // Запуск команды
                 try
                 {
                     var window = new LanguageChangeCommandWPF();

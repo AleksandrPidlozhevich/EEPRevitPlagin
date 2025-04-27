@@ -321,4 +321,115 @@
   <data name="SpecificationExportCommand_Title" xml:space="preserve">
     <value>Експорт полів\nспецифікації</value>
   </data>
+  <data name="Server_IP" xml:space="preserve">
+    <value>IP-адреса сервера</value>
+  </data>
+  <data name="Revit_Version" xml:space="preserve">
+    <value>Версія Revit</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="Revit_Server_Export_Models" xml:space="preserve">
+    <value>Revit Server - Вивантаження моделей</value>
+  </data>
+  <data name="Navisworks_view_contains" xml:space="preserve">
+    <value>Ім'я виду Navisworks містить</value>
+  </data>
+  <data name="IFC_view_contains" xml:space="preserve">
+    <value>Ім'я виду IFC містить</value>
+  </data>
+  <data name="Save_as" xml:space="preserve">
+    <value>Зберегти як:</value>
+  </data>
+  <data name="Сonnect_to_server" xml:space="preserve">
+    <value>Підключиться до сервера</value>
+  </data>
+  <data name="Export_selected_models" xml:space="preserve">
+    <value>Вивантаження вибраних моделей</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="CheckModelChangesCommand_Tooltip" xml:space="preserve">
+    <value>Перевірити зміни у пов'язаному файлі</value>
+  </data>
+  <data name="CheckModelChangesCommand_Title" xml:space="preserve">
+    <value>Перевірити\nзміни\nу зв'язаному файлі</value>
+  </data>
+  <data name="AnalyzeSourceModelCommand_Tooltip" xml:space="preserve">
+    <value>Записати стан моделі</value>
+  </data>
+  <data name="AnalyzeSourceModelCommand_Title" xml:space="preserve">
+    <value>Записати стан\nмоделі</value>
+  </data>
+  <data name="ModelCompareCommand_Tooltip" xml:space="preserve">
+    <value>Перевірка змін у поточній моделі</value>
+  </data>
+  <data name="ModelCompareCommand_Title" xml:space="preserve">
+    <value>Порівнювати\n дві моделі</value>
+  </data>
+  <data name="ListNumberingCommand_Tooltip" xml:space="preserve">
+    <value>Перенумерація листів</value>
+  </data>
+  <data name="ListNumberingCommand_Title" xml:space="preserve">
+    <value>Перенумерація\nлистів</value>
+  </data>
+  <data name="ScheduleRowCounterCommand_Tooltip" xml:space="preserve">
+    <value>Додати номери рядків у специфікації</value>
+  </data>
+  <data name="FindOverrideViewElementsCommand_Tooltip" xml:space="preserve">
+    <value>Пошук елементів із перевизначеною графікою</value>
+  </data>
+  <data name="FindOverrideViewElementsCommand_Title" xml:space="preserve">
+    <value>Перевизначення графіки</value>
+  </data>
+  <data name="Add_models_manually" xml:space="preserve">
+    <value>Додати моделі вручну</value>
+  </data>
+  <data name="Combine_all_nwc_to_one_nwd_file" xml:space="preserve">
+    <value>Об'єднати всі .nwc в ​​один файл .nwd</value>
+  </data>
+  <data name="RoomBoundaryLinesCommand_Url" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="RoomBoundaryLinesCommand_Tooltip" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="PropertiesCopyCommand_Title" xml:space="preserve">
+    <value>Чарівна паличка</value>
+  </data>
+  <data name="PropertiesCopyCommand_Tooltip" xml:space="preserve">
+    <value>Копіювання параметрів елемента</value>
+  </data>
+  <data name="Select_the_ite_from_which_to_copy_properties" xml:space="preserve">
+    <value>Виберіть елемент, з якого потрібно скопіювати властивості</value>
+  </data>
+  <data name=" Error_messages" xml:space="preserve">
+    <value>Щось не вийшло. Зберігайте спокій та порядок!</value>
+  </data>
+  <data name="Property_copying" xml:space="preserve">
+    <value>Капіраванне ўласцівасцей</value>
+  </data>
+  <data name="Selected_item_not_retrieved" xml:space="preserve">
+    <value>Не вдалося отримати вибраний елемент.</value>
+  </data>
+  <data name="Select_copy_properties_or_Esc" xml:space="preserve">
+    <value>Виберіть елемент для копіювання властивостей або натисніть Esc для завершення.</value>
+  </data>
+  <data name="ChangeTypeCopyPropertisCommand_Tooltip" xml:space="preserve">
+    <value>Змінює тип елемента та копіює всі параметри</value>
+  </data>
+  <data name="RoomBoundaryLinesCommand_Title" xml:space="preserve">
+    <value>Довжина/стіни приміщення</value>
+  </data>
+  <data name="ChangeTypeCopyPropertisCommand_Url" xml:space="preserve">
+    <value>https://github.com/AleksandrPidlozhevich/EEP_Revit_Plagin</value>
+  </data>
+  <data name="OffAnalyticsModelGroupCommand_Title" xml:space="preserve">
+    <value>Вимкнути аналітику модель групи</value>
+  </data>
+  <data name="OffAnalyticsModelGroupCommand_Tooltip" xml:space="preserve">
+    <value>Вимкнути аналітику модель групи</value>
+  </data>
 </root>

@@ -301,7 +301,7 @@
     <value>Размещение\nперемычек</value>
   </data>
   <data name="Revit_Server_Export_Models" xml:space="preserve">
-    <value>Revit Server - Выгузка Моделей</value>
+    <value>Revit Server - Выгрузка Моделей</value>
   </data>
   <data name="Navisworks_view_contains" xml:space="preserve">
     <value>Имя вид Navisworks содержит</value>

@@ -4,12 +4,16 @@
     "Culture": "en-US"
   },
   {
-    "Name": "Русский",
-    "Culture": "ru-RU"
-  },
-  {
     "Name": "Беларускі",
     "Culture": "be-BY"
+  },
+  {
+    "Name": "Українська",
+    "Culture": "uk-UA"
+  },
+  {
+    "Name": "Русский",
+    "Culture": "ru-RU"
   },
   {
     "Name": "Italiano",

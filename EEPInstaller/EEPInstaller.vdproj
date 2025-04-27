@@ -15,26 +15,14 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0F6E8A6F9CBD47E09987C2F53DD09005"
-        "OwnerKey" = "8:_55DC18172B1B4583A4825E29AE357CA8"
+        "MsmKey" = "8:_007DC8F0DB064ACBABB0489F71ECCA52"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_0F6E8A6F9CBD47E09987C2F53DD09005"
-        "OwnerKey" = "8:_C0DA27FDC0D64E99A7491B7187C9F879"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0F6E8A6F9CBD47E09987C2F53DD09005"
-        "OwnerKey" = "8:_A5AC5DF8594E4C3E9C128B3CE6A120FF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0F6E8A6F9CBD47E09987C2F53DD09005"
-        "OwnerKey" = "8:_632F847E2DC74BE995EFAF009BBA412E"
+        "MsmKey" = "8:_05E4C814A2A24211AD7CF68D8DB3DD83"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -46,6 +34,12 @@
         "Entry"
         {
         "MsmKey" = "8:_22AC1667C746415993C60B847729F232"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2B9DDFC81BA54D00B44A4EC635B6360B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -81,26 +75,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_4D04A26094CFB65B203A1373FD9F2812"
-        "OwnerKey" = "8:_55DC18172B1B4583A4825E29AE357CA8"
+        "MsmKey" = "8:_4D4D7E7C980E4A5A9E35E3ABEDDFFC46"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4D04A26094CFB65B203A1373FD9F2812"
-        "OwnerKey" = "8:_C0DA27FDC0D64E99A7491B7187C9F879"
+        "MsmKey" = "8:_53656EB526974CD7B3CE3C3DB17F9B3A"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4D04A26094CFB65B203A1373FD9F2812"
-        "OwnerKey" = "8:_A5AC5DF8594E4C3E9C128B3CE6A120FF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4D04A26094CFB65B203A1373FD9F2812"
-        "OwnerKey" = "8:_632F847E2DC74BE995EFAF009BBA412E"
+        "MsmKey" = "8:_55002A93D358435C915ED2CA0B9C2A7A"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -123,25 +111,31 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_628BC1FAF7284B50920ADE83E1153750"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_632F847E2DC74BE995EFAF009BBA412E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9E4F5D4F4F8E4C8BAEBDFF0969BD6F77"
+        "MsmKey" = "8:_674C00B067EA49DA98BF036347CF1C23"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7924BAFC7BAD4C208529006F82B80522"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_9E794FFA636E48FFB9AC0297CF41CA54"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A2A299932764454BA1B0BDB7520AEC08"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -159,12 +153,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_BBECB03B800A4238A2F0CF469963535A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C0DA27FDC0D64E99A7491B7187C9F879"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -172,12 +160,6 @@
         "Entry"
         {
         "MsmKey" = "8:_C73109B93589402F9307CEA2A984D18A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C8A2531ABB4B4E3FA2411579345775EE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -195,122 +177,62 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E49B499B9E9542F1A714B7BDD039284C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_EACC232B6A5C44F883889524208F51F8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F39D635FABB64FB5A6E35F2B4D6547E7"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FE13BF130FA841E9814866A9B4BEF184"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_05E4C814A2A24211AD7CF68D8DB3DD83"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9E4F5D4F4F8E4C8BAEBDFF0969BD6F77"
+        "OwnerKey" = "8:_7924BAFC7BAD4C208529006F82B80522"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FE13BF130FA841E9814866A9B4BEF184"
+        "OwnerKey" = "8:_007DC8F0DB064ACBABB0489F71ECCA52"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F39D635FABB64FB5A6E35F2B4D6547E7"
+        "OwnerKey" = "8:_53656EB526974CD7B3CE3C3DB17F9B3A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E49B499B9E9542F1A714B7BDD039284C"
+        "OwnerKey" = "8:_55002A93D358435C915ED2CA0B9C2A7A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C8A2531ABB4B4E3FA2411579345775EE"
+        "OwnerKey" = "8:_2B9DDFC81BA54D00B44A4EC635B6360B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C0DA27FDC0D64E99A7491B7187C9F879"
+        "OwnerKey" = "8:_4D4D7E7C980E4A5A9E35E3ABEDDFFC46"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BBECB03B800A4238A2F0CF469963535A"
+        "OwnerKey" = "8:_674C00B067EA49DA98BF036347CF1C23"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A5AC5DF8594E4C3E9C128B3CE6A120FF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A2A299932764454BA1B0BDB7520AEC08"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9E794FFA636E48FFB9AC0297CF41CA54"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_632F847E2DC74BE995EFAF009BBA412E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_55DC18172B1B4583A4825E29AE357CA8"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4D04A26094CFB65B203A1373FD9F2812"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0F6E8A6F9CBD47E09987C2F53DD09005"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4B325E301DC9401097680D06EC184964"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_22AC1667C746415993C60B847729F232"
+        "OwnerKey" = "8:_628BC1FAF7284B50920ADE83E1153750"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -408,20 +330,51 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0F6E8A6F9CBD47E09987C2F53DD09005"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_007DC8F0DB064ACBABB0489F71ECCA52"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Automation, Version=19.0.1366.6, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
+            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Automation, Version=18.0.1347.51, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
-                    "_0F6E8A6F9CBD47E09987C2F53DD09005"
+                    "_007DC8F0DB064ACBABB0489F71ECCA52"
                     {
                     "Name" = "8:Autodesk.Navisworks.Automation.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Autodesk.Navisworks.Automation.dll"
+            "SourcePath" = "8:C:\\Program Files\\Autodesk\\Navisworks Manage 2021\\Autodesk.Navisworks.Automation.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_2961662D44964AEC9D89F68A833EBC4E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_05E4C814A2A24211AD7CF68D8DB3DD83"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Api, Version=18.0.1347.51, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_05E4C814A2A24211AD7CF68D8DB3DD83"
+                    {
+                    "Name" = "8:Autodesk.Navisworks.Api.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:C:\\Program Files\\Autodesk\\Navisworks Manage 2021\\Autodesk.Navisworks.Api.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_EF109BCBD44F43DEB7D0EFA7DB88981C"
@@ -436,7 +389,7 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_20A6DA4C91A9436FB284D95403E38447"
@@ -466,16 +419,42 @@
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_22AC1667C746415993C60B847729F232"
-                    {
-                    "Name" = "8:Newtonsoft.Json.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2023\\Newtonsoft.Json.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_CF9493BF83B24C83A40BB59E9E498773"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2B9DDFC81BA54D00B44A4EC635B6360B"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Api, Version=18.0.1347.51, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_2B9DDFC81BA54D00B44A4EC635B6360B"
+                    {
+                    "Name" = "8:Autodesk.Navisworks.Api.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:C:\\Program Files\\Autodesk\\Navisworks Manage 2021\\Autodesk.Navisworks.Api.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_891A0710E9414021936A25289A7556B3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -577,11 +556,6 @@
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_4B325E301DC9401097680D06EC184964"
-                    {
-                    "Name" = "8:Newtonsoft.Json.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2022\\Newtonsoft.Json.dll"
             "TargetName" = "8:"
@@ -601,23 +575,23 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4D04A26094CFB65B203A1373FD9F2812"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4D4D7E7C980E4A5A9E35E3ABEDDFFC46"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Automation, Version=18.0.1347.51, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
-                    "_4D04A26094CFB65B203A1373FD9F2812"
+                    "_4D4D7E7C980E4A5A9E35E3ABEDDFFC46"
                     {
-                    "Name" = "8:Newtonsoft.Json.dll"
+                    "Name" = "8:Autodesk.Navisworks.Automation.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Newtonsoft.Json.dll"
+            "SourcePath" = "8:C:\\Program Files\\Autodesk\\Navisworks Manage 2021\\Autodesk.Navisworks.Automation.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_EF109BCBD44F43DEB7D0EFA7DB88981C"
+            "Folder" = "8:_CF9493BF83B24C83A40BB59E9E498773"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -629,7 +603,69 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_53656EB526974CD7B3CE3C3DB17F9B3A"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Api, Version=18.0.1347.51, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_53656EB526974CD7B3CE3C3DB17F9B3A"
+                    {
+                    "Name" = "8:Autodesk.Navisworks.Api.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:C:\\Program Files\\Autodesk\\Navisworks Manage 2021\\Autodesk.Navisworks.Api.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_2961662D44964AEC9D89F68A833EBC4E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_55002A93D358435C915ED2CA0B9C2A7A"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Automation, Version=18.0.1347.51, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_55002A93D358435C915ED2CA0B9C2A7A"
+                    {
+                    "Name" = "8:Autodesk.Navisworks.Automation.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:C:\\Program Files\\Autodesk\\Navisworks Manage 2021\\Autodesk.Navisworks.Automation.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_891A0710E9414021936A25289A7556B3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_559F91FABFEC4FF89D5FCA00FC2DA1E6"
@@ -659,11 +695,6 @@
             "AssemblyAsmDisplayName" = "8:EEPRevitPlagin_2022, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_55DC18172B1B4583A4825E29AE357CA8"
-                    {
-                    "Name" = "8:EEPRevitPlagin_2022.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2022\\EEPRevitPlagin_2022.dll"
             "TargetName" = "8:"
@@ -703,6 +734,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_628BC1FAF7284B50920ADE83E1153750"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Automation, Version=18.0.1347.51, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_628BC1FAF7284B50920ADE83E1153750"
+                    {
+                    "Name" = "8:Autodesk.Navisworks.Automation.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:C:\\Program Files\\Autodesk\\Navisworks Manage 2021\\Autodesk.Navisworks.Automation.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_EF109BCBD44F43DEB7D0EFA7DB88981C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_632F847E2DC74BE995EFAF009BBA412E"
             {
             "AssemblyRegister" = "3:1"
@@ -710,11 +772,6 @@
             "AssemblyAsmDisplayName" = "8:EEPRevitPlagin_2023, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_632F847E2DC74BE995EFAF009BBA412E"
-                    {
-                    "Name" = "8:EEPRevitPlagin_2023.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2023\\EEPRevitPlagin_2023.dll"
             "TargetName" = "8:"
@@ -734,20 +791,51 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9E4F5D4F4F8E4C8BAEBDFF0969BD6F77"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_674C00B067EA49DA98BF036347CF1C23"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Api, Version=19.0.1366.6, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
+            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Api, Version=18.0.1347.51, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
-                    "_9E4F5D4F4F8E4C8BAEBDFF0969BD6F77"
+                    "_674C00B067EA49DA98BF036347CF1C23"
                     {
                     "Name" = "8:Autodesk.Navisworks.Api.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2022\\Autodesk.Navisworks.Api.dll"
+            "SourcePath" = "8:C:\\Program Files\\Autodesk\\Navisworks Manage 2021\\Autodesk.Navisworks.Api.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_CF9493BF83B24C83A40BB59E9E498773"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7924BAFC7BAD4C208529006F82B80522"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_7924BAFC7BAD4C208529006F82B80522"
+                    {
+                    "Name" = "8:Newtonsoft.Json.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\packages\\Newtonsoft.Json.13.0.3\\lib\\net45\\Newtonsoft.Json.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_EF109BCBD44F43DEB7D0EFA7DB88981C"
@@ -772,47 +860,11 @@
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9E794FFA636E48FFB9AC0297CF41CA54"
-                    {
-                    "Name" = "8:Newtonsoft.Json.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2021\\Newtonsoft.Json.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_891A0710E9414021936A25289A7556B3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A2A299932764454BA1B0BDB7520AEC08"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Api, Version=19.0.1366.6, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
-                "ScatterAssemblies"
-                {
-                    "_A2A299932764454BA1B0BDB7520AEC08"
-                    {
-                    "Name" = "8:Autodesk.Navisworks.Api.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2023\\Autodesk.Navisworks.Api.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_CF9493BF83B24C83A40BB59E9E498773"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -834,11 +886,6 @@
             "AssemblyAsmDisplayName" = "8:EEPRevitPlagin_2020, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_A5AC5DF8594E4C3E9C128B3CE6A120FF"
-                    {
-                    "Name" = "8:EEPRevitPlagin_2020.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2020\\EEPRevitPlagin_2020.dll"
             "TargetName" = "8:"
@@ -878,37 +925,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BBECB03B800A4238A2F0CF469963535A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Automation, Version=19.0.1366.6, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
-                "ScatterAssemblies"
-                {
-                    "_BBECB03B800A4238A2F0CF469963535A"
-                    {
-                    "Name" = "8:Autodesk.Navisworks.Automation.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2020\\Autodesk.Navisworks.Automation.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_2961662D44964AEC9D89F68A833EBC4E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C0DA27FDC0D64E99A7491B7187C9F879"
             {
             "AssemblyRegister" = "3:1"
@@ -916,11 +932,6 @@
             "AssemblyAsmDisplayName" = "8:EEPRevitPlagin_2021, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C0DA27FDC0D64E99A7491B7187C9F879"
-                    {
-                    "Name" = "8:EEPRevitPlagin_2021.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2021\\EEPRevitPlagin_2021.dll"
             "TargetName" = "8:"
@@ -946,37 +957,6 @@
             "TargetName" = "8:EEPRevitPlagin_2022.addin"
             "Tag" = "8:"
             "Folder" = "8:_ADEEC8DEC7974038982008FABCBC7935"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C8A2531ABB4B4E3FA2411579345775EE"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Api, Version=19.0.1366.6, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
-                "ScatterAssemblies"
-                {
-                    "_C8A2531ABB4B4E3FA2411579345775EE"
-                    {
-                    "Name" = "8:Autodesk.Navisworks.Api.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2020\\Autodesk.Navisworks.Api.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_2961662D44964AEC9D89F68A833EBC4E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1031,105 +1011,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E49B499B9E9542F1A714B7BDD039284C"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Automation, Version=19.0.1366.6, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
-                "ScatterAssemblies"
-                {
-                    "_E49B499B9E9542F1A714B7BDD039284C"
-                    {
-                    "Name" = "8:Autodesk.Navisworks.Automation.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2023\\Autodesk.Navisworks.Automation.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_CF9493BF83B24C83A40BB59E9E498773"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EACC232B6A5C44F883889524208F51F8"
             {
             "SourcePath" = "8:..\\EEPRevitPlagin\\SecondaryCommand\\LangResources\\config.json"
             "TargetName" = "8:config.json"
             "Tag" = "8:"
             "Folder" = "8:_B63815D4B9F34429B0107B940454C55C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F39D635FABB64FB5A6E35F2B4D6547E7"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Api, Version=19.0.1366.6, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
-                "ScatterAssemblies"
-                {
-                    "_F39D635FABB64FB5A6E35F2B4D6547E7"
-                    {
-                    "Name" = "8:Autodesk.Navisworks.Api.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2021\\Autodesk.Navisworks.Api.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_891A0710E9414021936A25289A7556B3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FE13BF130FA841E9814866A9B4BEF184"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Autodesk.Navisworks.Automation, Version=19.0.1366.6, Culture=neutral, PublicKeyToken=d85e58fa5af9b484, processorArchitecture=AMD64"
-                "ScatterAssemblies"
-                {
-                    "_FE13BF130FA841E9814866A9B4BEF184"
-                    {
-                    "Name" = "8:Autodesk.Navisworks.Automation.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\EEPRevitPlagin\\bin\\R2021\\Autodesk.Navisworks.Automation.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_891A0710E9414021936A25289A7556B3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
